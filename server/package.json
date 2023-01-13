@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "cd utils && node seeds.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,7 @@
     "expresss": "^0.0.0",
     "graphql": "^16.6.0",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^6.8.3"
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
   }
 }
