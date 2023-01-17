@@ -3,7 +3,7 @@ const { hash, compare }= require('bcrypt');
 
 const UserSc= new Schema(
     {
-            username: {
+        username: {
             type: String,
             required: true,
             unique: true
@@ -33,3 +33,6 @@ UserSc.methods.checkPw = async function(pw) {
 };
 
 const User= model("User", UserSc);
+
+
+module.exports= User;
