@@ -13,7 +13,11 @@ const UserSc= new Schema(
             required: true,
             minLength: 8,
             unique: true
-        }
+        },
+        boards:[{
+            type: Schema.Types.ObjectId,
+            ref: 'Board'
+        }]
     }    
 );
     
@@ -32,7 +36,4 @@ UserSc.methods.checkPw = async function(pw) {
     return compare(pw, this.password)
 };
 
-const User= model("User", UserSc);
-
-
-module.exports= User;
+module.exports= model("User", UserSc);;
