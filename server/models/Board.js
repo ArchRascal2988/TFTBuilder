@@ -1,14 +1,11 @@
 const { Schema, model }= require('mongoose');
 
 const cellSc= new Schema({
-    isOccupied:{
-        type: Boolean,
-        default: false
-    },
     currentChamp:{
         type: Schema.Types.ObjectId,
         ref: 'Champ',
-        required: false
+        required: false,
+        default: null
     }
 })
 
@@ -24,13 +21,5 @@ const boardSc= new Schema(
         }]
     }
 );
-
-cellSc.post('save', function(next){
-    if(this.currentChamp){
-        this.isOccupied= true;
-    }
-
-    next();
-});
 
 module.exports= model("Board", boardSc);
