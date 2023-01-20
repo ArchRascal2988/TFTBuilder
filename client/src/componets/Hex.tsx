@@ -1,5 +1,5 @@
-const EmptyHex= ()=>{
+const Hex= ()=>{
 
 }
 
-export default EmptyHex;
+export default Hex;

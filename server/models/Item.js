@@ -27,4 +27,6 @@ const itemSc= new Schema({
     pngUrl:{
         type: String
     }
-})
+});
+
+module.exports= model("Item", itemSc);

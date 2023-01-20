@@ -1,25 +1,20 @@
 const { Schema, model }= require('mongoose');
 
 const abilitySc= new Schema({
+    name:{
+        type: String
+    },
     description:{
         type: String
     },
     cost:[{
-        type: Number
+        type: Number,
+        required: false
     }],
     pngUrl:{
         type: String
     }
 });
-
-const classSc= newSchema({
-    name:{
-        type: String
-    },
-    pngUrl:{
-        type: String
-    }
-})
 
 const champSc= new Schema(
     {
@@ -30,13 +25,12 @@ const champSc= new Schema(
         },
         rarity:{
             type: Number,
-            min: 0,
+            min: 1,
             min: 5
         },
-        class: classSc,
-        origins: [{
+        traits: [{
             type: Schema.Types.ObjectId,
-            ref: 'Origin'
+            ref: 'Trait'
         }], 
         ability: abilitySc,
         currItems:[{
