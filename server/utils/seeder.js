@@ -4,8 +4,10 @@ const {Champ, Trait, Item, Augment}= require('../models/index');
 
 
 const ctA= JSON.parse(fs.readFileSync('./champ_traitRaw.json', 'utf-8'));
+const iaA= JSON.parse(fs.readFileSync('./item_augRaw.json', 'utf-8'));
 const champA= ctA.champions;
 const traitA= ctA.traits;
+console.log(iaA);
 
 const clean= async (arr, model, limiterL, limiterH)=>{
     const cleanArr= await arr.map(async (el)=>{
@@ -55,10 +57,11 @@ const clean= async (arr, model, limiterL, limiterH)=>{
 }
 
 const seed= (arr, model)=>{
-    
+
 }
 
 (async ()=>{
+    //adding model serialization to stack and then resolving promises before passing to seeder function
     await clean(traitA, Trait.schema.obj).then(async (arr)=>{
         const newarr= await Promise.all(arr);
         seed(newarr, Champ);
