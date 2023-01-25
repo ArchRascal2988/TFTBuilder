@@ -1,15 +1,13 @@
 const { Schema, model }= require('mongoose');
 
-const tierSc= new Schema({
-    threshold:{
+const effectSc= new Schema({
+    minUnits:{
         type: Number
     },
-    tier:{
+    style:{
         type: Number
     },
-    scaling:{
-        type: Number
-    }
+    variables: Map
 })
 
 const traitSc= new Schema(
@@ -17,13 +15,13 @@ const traitSc= new Schema(
     name:{
         type: String,
     },
-    description:{
+    desc:{
         type: String
     },
     type:{
         type: String
     },
-    tiers:[tierSc],
+    effects:[effectSc],
     pngUrl:{
         type: String
     }
