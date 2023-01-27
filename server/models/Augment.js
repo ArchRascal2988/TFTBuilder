@@ -5,7 +5,7 @@ const augSc= new Schema(
         name:{
             type: String
         },
-        effect:{
+        desc:{
             type: String
         },
         type:{

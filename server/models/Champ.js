@@ -31,7 +31,7 @@ const champSc= new Schema(
         cost:{
             type: Number,
             min: 1,
-            min: 5
+            mix: 5
         },
         traits: [{
             type: Schema.Types.ObjectId,

@@ -1,8 +1,8 @@
 const express= require('express');
 const { ApolloSever }= require('apollo-server-express');
+const {Trait}= require('./models/index');
 
 const db= require('./config/db');
-
 const path= require('path');
 
 const app= express();
@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: false}));
 app.use(express.json());
 
 app.get('/', (req,res)=>{
-    res.sendFile(path.join(__dirname, '../build/index.html'))
+    res.sendFile(path.join(__dirname, '../build/index.html'));
 });
 
 // const startApolloServer= async (typeDefs, resolvers) =>{
@@ -25,8 +25,9 @@ app.get('/', (req,res)=>{
 //     server.applyMiddleware({app});
   
     db.once('open', () => {
+      console.log(db.db);
       app.listen(PORT, () => {
-        console.log(`Now listening on localhost: ${PORT}`);
+        console.log(`Now listening on localhost:${PORT}`);
         // console.log(`GraphQL GUI: http://localhost:${PORT}${server.graphqlPath}`);
       });
     });

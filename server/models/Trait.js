@@ -23,7 +23,8 @@ const traitSc= new Schema(
     },
     effects:[effectSc],
     pngUrl:{
-        type: String
+        type: String,
+        required: false
     }
 }
 );
