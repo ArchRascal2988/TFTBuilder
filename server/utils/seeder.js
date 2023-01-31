@@ -8,10 +8,10 @@ const iaA= JSON.parse(fs.readFileSync('./item_augRaw.json', 'utf-8'));
 const champA= ctA.champions;
 const traitA= ctA.traits;
 //console.log(iaA);
-
-const clean= async (arr, model, Model)=>{
+const clean= async (arr, model)=>{
     const cleanArr= await arr.map(async (el)=>{
         let newObj= {};
+        console.log(el)
         for(const key in model){
         //check if current key exisits in raw data
             if(!el[key]){
@@ -26,16 +26,20 @@ const clean= async (arr, model, Model)=>{
                 newObj[key]= await clean(el[key], model[key][0].obj).then(arr=> Promise.all(arr));
             } 
         //check if models field is a regular array
-            else if(model[key] instanceof Array && !model[key] instanceof Schema){
-                //for primitive types
-                if(typeof model[key][0] == typeof el[0]){
-                    newObj[key]= el[key];
+            else if(model[key] instanceof Array){
+                //for foriegn key
+                if(model[key][0].ref){
+                    newObj[key]= [];
+                    let Model= getModel(model[key][0].ref);
+                    for(const trait of el[key]){
+                        let {_id}= await Model.findOne({name: trait});
+                    
+                        newObj[key].push(_id);
+                    }
                 } 
-                //for foriegn key (under construction)
+                //for primitive types
                 else{
-                    let reference= Model.findOne({name: el[key]});
-                    console.log(reference);
-                    // newObj[key]= model[key][0].ref;
+                    newObj[key]= el[key];
                 }
             }  
         //edge cases
@@ -60,21 +64,29 @@ const clean= async (arr, model, Model)=>{
     return cleanArr;
 }
 
-const seed= (arr, Model)=>{
-    Model.create(arr);
+const getModel= (str) =>{
+    switch(str){
+        case "Trait": return Trait;
+        case "Item": return Item;
+    }
 }
+
+
 
 (db.once('open', async ()=>{
     //adding model serialization to stack and then resolving promises before passing to seeder function
-    // await clean(traitA, Trait.schema.obj).then(async (arr)=>{
-    //     const newarr= await Promise.all(arr);
-    //     seed(newarr, Trait);
-    // });
-
+    console.log('\n\n______Seeding Traits_______');
+    await clean(traitA, Trait.schema.obj).then(async (arr)=>{
+        const newarr= await Promise.all(arr);
+        await Trait.create(newarr);
+    });
+    console.log('\n\n______Seeding Champs_______');
     await clean(champA, Champ.schema.obj).then(async (arr)=>{
         const newarr= await Promise.all(arr);
-        seed(newarr, Champ);
+        await Champ.create(newarr);
     });
+
+    process.exit(0);
 }));
 
 
