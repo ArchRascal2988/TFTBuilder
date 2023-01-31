@@ -50,7 +50,7 @@ const clean= async (arr, model)=>{
                         newObj[key].set(key2, el[key][key2])
                     }   
                 } else{
-
+                    ///dynamically add url string (not sure what base url to use)
                 }
             }
         //default
@@ -85,7 +85,9 @@ const getModel= (str) =>{
         const newarr= await Promise.all(arr);
         await Champ.create(newarr);
     });
+    console.log('\n\n______Seeding Items_______');
 
+    console.log('\n\n______Seeding Augments_______');
     process.exit(0);
 }));
 
