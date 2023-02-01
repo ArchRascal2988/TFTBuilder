@@ -43,6 +43,15 @@ const champSc= new Schema(
             ref: 'Item',
             default: null
         }],
+        starLvl:{
+            type: String,
+            default: null,
+            enum: ["1 Star", "2 Star", "3 Star"]
+        }, 
+        isPrime:{
+            type: Boolean,
+            default: false
+        },
         pngUrl:{
             type: String
         }

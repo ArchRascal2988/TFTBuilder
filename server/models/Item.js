@@ -1,28 +1,16 @@
 const { Schema, model }= require('mongoose');
 
-const baseItemSc= new Schema({
-    name:{
-        type: String
-    },
-    effects:{
-        type: String
-    },
-    pngUrl:{
-        type: String
-    }
-});
-
 const itemSc= new Schema({
     name:{
         type: String
     },
-    effect:{
+    effects: Map,
+    from:[{
+        type: Schema.Types.ObjectId,
+        ref: 'Item'
+    }],
+    type:{
         type: String
-    },
-    recipie:[baseItemSc],
-    special:{
-        type: String,
-        default: null
     },
     pngUrl:{
         type: String

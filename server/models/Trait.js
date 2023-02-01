@@ -4,11 +4,8 @@ const effectSc= new Schema({
     minUnits:{
         type: Number
     },
-    style:{
-        type: Number
-    },
     variables: Map
-})
+});
 
 const traitSc= new Schema(
 {

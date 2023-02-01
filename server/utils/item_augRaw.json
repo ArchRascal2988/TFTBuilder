@@ -1,915 +1,5 @@
 {
-    "items": [
-        {
-            "apiName": "TFT8_AdminCause_OnCast",
-            "desc": "tft_item_description_TFT8_AdminCause_OnCast",
-            "effects": {
-                "AoEDamage": 150.0,
-                "HealAmount": 200.0,
-                "ShieldDuration": 4.0,
-                "{00ac4fc9}": 10.0,
-                "{2d7e43a8}": 20.0,
-                "{2dd33743}": 25.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 10.0,
-                "{5d8ecbba}": 15.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 20.0,
-                "{c16da2b4}": 20.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9201,
-            "name": "tft_item_name_TFT8_AdminCause_OnCast",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStart_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9291,
-            "name": "Combat start: A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9214,
-            "name": "gain @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9255,
-            "name": "On ally death, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9263,
-            "name": "On ally death, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9262,
-            "name": "On ally death, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStart_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9292,
-            "name": "Combat start: A.D.M.I.N.s gain a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9286,
-            "name": "At 40% Health, A.D.M.I.N.s heal @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9261,
-            "name": "On ally death, A.D.M.I.N.s heal @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9260,
-            "name": "On ally death, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSecsTeam_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9314,
-            "name": "Every 5 seconds, your team gains @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9301,
-            "name": "Every 5 seconds, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSecsTeam_PermHP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9316,
-            "name": "Every 5 seconds, your team gains @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9210,
-            "name": "gain a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@ % Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStartTeam_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9307,
-            "name": "Combat start: your team gains @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9272,
-            "name": "Every 3 attacks, gain a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9299,
-            "name": "Every 5 seconds, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9296,
-            "name": "Every 5 seconds, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_AllyDeath",
-            "desc": "tft_item_description_TFT8_AdminCause_OtherAdminDeath",
-            "effects": {
-                "AoEDamage": 400.0,
-                "HealAmount": 350.0,
-                "ShieldDuration": 10.0,
-                "{00ac4fc9}": 15.0,
-                "{2d7e43a8}": 40.0,
-                "{2dd33743}": 40.0,
-                "{3b96bc78}": 60.0,
-                "{3ba78496}": 20.0,
-                "{5d8ecbba}": 20.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 30.0,
-                "{c16da2b4}": 20.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9212,
-            "name": "tft_item_name_TFT8_AdminCause_OtherAdminDeath",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStartTeam_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9306,
-            "name": "Combat start: your team gains @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSecsTeam_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9315,
-            "name": "Every 5 seconds, your team heals @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_EveryXAttacks",
-            "desc": "tft_item_description_TFT8_AdminCause_Every3Attacks",
-            "effects": {
-                "AoEDamage": 75.0,
-                "HealAmount": 120.0,
-                "NumAttacks": 3.0,
-                "ShieldDuration": 4.0,
-                "{00ac4fc9}": 2.0,
-                "{2d7e43a8}": 10.0,
-                "{2dd33743}": 20.0,
-                "{3b96bc78}": 3.0,
-                "{3ba78496}": 15.0,
-                "{5d8ecbba}": 10.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 10.0,
-                "{c16da2b4}": 40.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9203,
-            "name": "tft_item_name_TFT8_AdminCause_Every3Attacks",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9285,
-            "name": "At 40% Health, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_GainMana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9258,
-            "name": "On ally death, A.D.M.I.N.s gain @TFTUnitProperty.trait:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9280,
-            "name": "On kill, the killer gains @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSecsTeam_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9312,
-            "name": "Every 5 seconds, your team gains @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_Gold",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9211,
-            "name": "@TFTUnitProperty.item:TFT8_Admin_GoldChance@% chance to drop gold",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9289,
-            "name": "At 40% Health, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSecsTeam_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9311,
-            "name": "Every 5 seconds, your team gains @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9276,
-            "name": "Every 3 attacks, gain @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9284,
-            "name": "At 40% Health, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9257,
-            "name": "On Ability cast, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStart_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9290,
-            "name": "Combat start: A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9270,
-            "name": "Every 3 attacks, gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9256,
-            "name": "At 40% Health, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStartTeam_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9308,
-            "name": "Combat start: your team gains a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_EveryXSecondsTeam",
-            "desc": "tft_item_description_TFT8_AdminCause_CombatStart",
-            "effects": {
-                "AoEDamage": 200.0,
-                "HealAmount": 150.0,
-                "ShieldDuration": 15.0,
-                "{00ac4fc9}": 5.0,
-                "{2d7e43a8}": 12.0,
-                "{2dd33743}": 12.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 12.0,
-                "{5d8ecbba}": 12.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 35.0,
-                "{c16da2b4}": 12.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9221,
-            "name": "Combat Start: ",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStart_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9294,
-            "name": "Combat start: A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9275,
-            "name": "Every 3 attacks, gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9265,
-            "name": "On Ability cast, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9297,
-            "name": "Every 5 seconds, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9278,
-            "name": "On kill, the killer gains @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9218,
-            "name": "gain @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9283,
-            "name": "On kill, the killer gains @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStart_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9295,
-            "name": "Combat start: A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9279,
-            "name": "On kill, the killer gains a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStartTeam_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9305,
-            "name": "Combat start: your team gains @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9300,
-            "name": "Every 5 seconds, A.D.M.I.N.s heal @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9302,
-            "name": "Every 5 seconds, A.D.M.I.N.s get @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_CombatStart",
-            "desc": "tft_item_description_TFT8_AdminCause_CombatStart",
-            "effects": {
-                "AoEDamage": 200.0,
-                "HealAmount": "null",
-                "ShieldDuration": 15.0,
-                "{00ac4fc9}": 50.0,
-                "{2d7e43a8}": 50.0,
-                "{2dd33743}": 50.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 50.0,
-                "{5d8ecbba}": 50.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 35.0,
-                "{c16da2b4}": 45.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9202,
-            "name": "Combat Start: ",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9273,
-            "name": "Every 3 attacks, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_SingleTargetDamage",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9217,
-            "name": "fire a missile dealing true damage to the A.D.M.I.N. units' current combat target",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_OnEnemyDeath",
-            "desc": "tft_item_description_TFT8_AdminCause_OnKill",
-            "effects": {
-                "AoEDamage": 200.0,
-                "HealAmount": 350.0,
-                "ShieldDuration": 4.0,
-                "{00ac4fc9}": 20.0,
-                "{2d7e43a8}": 20.0,
-                "{2dd33743}": 50.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 25.0,
-                "{5d8ecbba}": 25.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 30.0,
-                "{c16da2b4}": 25.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9206,
-            "name": "tft_item_name_TFT8_AdminCause_OnKill",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStart_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9293,
-            "name": "Combat start: A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_EveryXSeconds",
-            "desc": "tft_item_description_TFT8_AdminCause_Every6Seconds",
-            "effects": {
-                "AoEDamage": 75.0,
-                "HealAmount": 250.0,
-                "ShieldDuration": 4.0,
-                "{00ac4fc9}": 15.0,
-                "{04209718}": 5.0,
-                "{2d7e43a8}": 30.0,
-                "{2dd33743}": 25.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 18.0,
-                "{5d8ecbba}": 20.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 15.0,
-                "{c16da2b4}": 20.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9204,
-            "name": "tft_item_name_TFT8_AdminCause_Every6Seconds",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9207,
-            "name": "gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9215,
-            "name": "heal @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_AttackSpeed",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9287,
-            "name": "At 40% Health, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ASAmount@% Attack Speed",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_CombatStartTeam",
-            "desc": "tft_item_description_TFT8_AdminCause_CombatStart",
-            "effects": {
-                "AoEDamage": 200.0,
-                "HealAmount": "null",
-                "ShieldDuration": 15.0,
-                "{00ac4fc9}": 15.0,
-                "{2d7e43a8}": 25.0,
-                "{2dd33743}": 25.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 25.0,
-                "{5d8ecbba}": 25.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 20.0,
-                "{c16da2b4}": 25.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9220,
-            "name": "Combat Start: ",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9274,
-            "name": "Every 3 attacks, heal @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health.",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_AoEDamage",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9213,
-            "name": null,
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9216,
-            "name": "gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_PermanentHealth",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9269,
-            "name": "On Ability cast, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStartTeam_PermHP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9310,
-            "name": "Combat start: your team gains @TFTUnitProperty.item:TFT8_Admin_PermanentHealthPerActivation@ permanent maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_AllyDeath_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9259,
-            "name": "On ally A.D.M.I.N. death, gain a shield for @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% of maximum Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9268,
-            "name": "On Ability cast, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSecsTeam_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9313,
-            "name": "Every 5 seconds, your team gains @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXSeconds_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9298,
-            "name": "Every 5 seconds, A.D.M.I.N.s gain a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_HealthThreshold_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9288,
-            "name": "At 40% Health, A.D.M.I.N.s gain a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminEffect_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9208,
-            "name": "gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_EveryXAttacks_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9271,
-            "name": "Every 3 attacks, gain @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCause_HealthThreshold",
-            "desc": "tft_item_description_TFT8_AdminCause_HealthThreshold",
-            "effects": {
-                "AoEDamage": 400.0,
-                "HealAmount": 600.0,
-                "HealthThreshold": 40.0,
-                "ShieldDuration": 10.0,
-                "{00ac4fc9}": 60.0,
-                "{2d7e43a8}": 100.0,
-                "{2dd33743}": 100.0,
-                "{3b96bc78}": 200.0,
-                "{3ba78496}": 80.0,
-                "{5d8ecbba}": 80.0,
-                "{9a186b7d}": "null",
-                "{9dc86ba9}": 35.0,
-                "{c16da2b4}": 80.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/InnovatorSoul1.dds",
-            "id": 9205,
-            "name": "tft_item_name_TFT8_AdminCause_HealthThreshold",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9281,
-            "name": "On kill, the killer heals @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_CombatStartTeam_Mana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9309,
-            "name": "Combat start: your team gains @TFTUnitProperty.item:TFT8_Admin_ManaGained@ Mana",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_Heal",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9267,
-            "name": "On Ability cast, A.D.M.I.N.s heal @TFTUnitProperty.item:TFT8_Admin_HealAmount@ Health",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9264,
-            "name": "On Ability cast, A.D.M.I.N.s gain @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_GainAP",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9277,
-            "name": "On kill, the killer gains @TFTUnitProperty.item:TFT8_Admin_APGained@ Ability Power",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnCast_Shield",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9266,
-            "name": "On Ability cast, A.D.M.I.N.s gain a @TFTUnitProperty.item:TFT8_Admin_ShieldAmount@% Health shield",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_AdminCauseEffect_OnKill_GainAD",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/TFT/Icons/Augments/ChoiceUI/ADMIN_Armorery_Icon.TFT_Set8.dds",
-            "id": 9282,
-            "name": "On kill, the killer gains @TFTUnitProperty.item:TFT8_Admin_ADGained@% Attack Damage",
-            "unique": false
-        },
+    "augments": [
         {
             "apiName": "TFT8_Augment_InterPolarisTrait",
             "desc": "Your team counts as having 1 additional LaserCorps. Gain a Yasuo.",
@@ -938,7 +28,7 @@
             "effects": {
                 "Duration": 60.0,
                 "HealthPercent": 0.5,
-                "{c188a147}": 3.0
+                "TargetCount": 3.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Taliyah/HUD/TFT8_Taliyah.TFT_Set8.dds",
@@ -961,7 +51,7 @@
             "desc": "Gain a Vel'Koz. Combat start: He  @ASSlow@% <TFTKeyword>Chills</TFTKeyword> enemies for @SlowDuration@ seconds.",
             "effects": {
                 "SlowDuration": 8.0,
-                "{c2d61920}": 30.0
+                "ASSlow": 30.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Velkoz/HUD/TFT8_Velkoz.TFT_Set8.dds",
@@ -982,25 +72,10 @@
             "unique": false
         },
         {
-            "apiName": "TFT8_HyperRollAugment_SivirCarry",
-            "desc": "Gain a Sivir. Every @CastCycle@ Ability casts, your strongest Sivir drops @BaseGold@ gold with a @GoldChance@% chance to drop @AdditionalGold@ extra gold.",
-            "effects": {
-                "BaseGold": 2.0,
-                "{2dd33743}": 5.0,
-                "{43550802}": 2.0,
-                "{e5c8ad60}": 2.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Sivir/HUD/TFT8_Sivir.TFT_Set8.dds",
-            "id": 9676,
-            "name": "Delivery Tips",
-            "unique": false
-        },
-        {
             "apiName": "TFT8_Augment_LeBlancGlitch",
             "desc": "Gain a LeBlanc. For every @SigilCount@ sigils fired by her Ability, she fires an extra sigil at the lowest Health enemy.",
             "effects": {
-                "{cd83dc7e}": 3.0
+                "SigilCount": 3.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Leblanc/HUD/TFT8_Leblanc.TFT_Set8.dds",
@@ -1013,7 +88,7 @@
             "desc": "Gain a Soraka. When you field her, your team restores @Mana@ Mana every @Interval@ seconds.",
             "effects": {
                 "Mana": 15.0,
-                "{cedd8578}": 5.0
+                "Interval": 5.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Soraka/HUD/TFT8_Soraka.TFT_Set8.dds",
@@ -1026,9 +101,9 @@
             "desc": "Gain a Sivir. Every @CastCycle@ Ability casts, your strongest Sivir drops @BaseGold@ gold with a @GoldChance@% chance to drop @AdditionalGold@ extra gold.",
             "effects": {
                 "BaseGold": 1.0,
-                "{2dd33743}": 5.0,
-                "{43550802}": 1.0,
-                "{e5c8ad60}": 2.0
+                "GoldChance": 5.0,
+                "AdditionalGold": 1.0,
+                "CastCycle": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sivir/HUD/TFT8_Sivir.TFT_Set8.dds",
@@ -1040,25 +115,12 @@
             "apiName": "TFT8_Augment_EzrealCarry",
             "desc": "Gain an Ezreal. When he casts his Ability, he gains @BonusStats@% Attack Speed and @BonusStats@ Ability Power for the rest of combat (this can stack).",
             "effects": {
-                "{83e12d6f}": 20.0
+                "BonusStats": 20.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Ezreal/HUD/TFT8_Ezreal.TFT_Set8.dds",
             "id": 9557,
             "name": "Rising Spell Force",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_HyperRollAugment_GangplankSupport",
-            "desc": "Gain a Gangplank. When you field him, your team has a @GoldChance@% chance to gain @BonusKillGold@ gold on kill.",
-            "effects": {
-                "{2dd33743}": 66.0,
-                "{d5fb325a}": 2.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Gangplank/HUD/TFT8_Gangplank.TFT_Set8.dds",
-            "id": 9675,
-            "name": "Get Paid",
             "unique": false
         },
         {
@@ -1087,7 +149,7 @@
             "apiName": "TFT8_Augment_KaisaStarCrossed",
             "desc": "Gain a Kai'Sa. She grants @ASPercent@% of her Ability's Attack Speed bonus to her nearest ally.",
             "effects": {
-                "{fab7c982}": 100.0
+                "ASPercent": 100.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Kaisa/HUD/TFT8_Kaisa.TFT_Set8.dds",
@@ -1100,7 +162,7 @@
             "desc": "Gain a Sona. She gains @BonusAP@ Ability Power and her Ability fires @AdditionalTargets@ additional beam.",
             "effects": {
                 "AdditionalTargets": 1.0,
-                "{d49caf5d}": 10.0
+                "BonusAP": 10.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sona/HUD/TFT8_Sona.TFT_Set8.dds",
@@ -1113,25 +175,12 @@
             "desc": "Gain a Malphite. He has Ability Power equal to @ArmorPercent*100@% of his Armor, and his Ability's Armor duration is increased by @Duration@ seconds.",
             "effects": {
                 "Duration": 4.0,
-                "{abfc283d}": 1.0
+                "ArmorPercent": 1.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Malphite/HUD/TFT8_Malphite.TFT_Set8.dds",
             "id": 9571,
             "name": "Rock Solid",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_HyperRollAugment_DravenCarry",
-            "desc": "Gain a Draven. He has @BonusAD@% Attack Damage. When he kills an enemy, there is a @GoldChance@% chance to gain 1 gold.",
-            "effects": {
-                "BonusAD": 25.0,
-                "{2dd33743}": 80.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Draven/HUD/TFT8_Draven.TFT_Set8.dds",
-            "id": 9677,
-            "name": "League of Draven",
             "unique": false
         },
         {
@@ -1148,7 +197,7 @@
             "apiName": "TFT8_Augment_YasuoCarry",
             "desc": "Gain a Yasuo. He has @BonusOmnivamp*100@% <TFTKeyword>Omnivamp</TFTKeyword>.",
             "effects": {
-                "{8bdcd88d}": 0.5
+                "BonusOmnivamp": 0.5
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Yasuo/HUD/TFT8_Yasuo.TFT_Set8.dds",
@@ -1170,8 +219,8 @@
             "apiName": "TFT8_Augment_LuxCarry",
             "desc": "Gain a Lux. Every @CastInterval@nd cast, her Ability deals @DamageIncreasePercent*100@% more damage.",
             "effects": {
-                "{aa04fb6b}": 2.0,
-                "{d50b4559}": 1.5
+                "CastInterval": 2.0,
+                "DamageIncreasePercent": 1.5
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Lux/HUD/TFT8_Lux.TFT_Set8.dds",
@@ -1218,32 +267,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT8_HyperRollAugment_ZedCarry",
-            "desc": "Gain a Zed. He has @AD@% Attack Damage, and for the rest of combat, he gains @ADPercent@% of an enemy's Attack Damage on kill.",
-            "effects": {
-                "AD": 10.0,
-                "{bc3d5e29}": 20.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Zed/HUD/TFT8_Zed.TFT_Set8.dds",
-            "id": 9678,
-            "name": "Shadow Jutsu",
-            "unique": false
-        },
-        {
-            "apiName": "TFT8_HyperRollAugment_MissFortuneSupport",
-            "desc": "Gain a Miss Fortune. After every @Combats@ player combats fielded, she drops @Gold@ gold.",
-            "effects": {
-                "Gold": 30.0,
-                "{cc06ab16}": 3.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_MissFortune/HUD/TFT8_MissFortune.TFT_Set8.dds",
-            "id": 9680,
-            "name": "Make It Rain",
-            "unique": false
-        },
-        {
             "apiName": "TFT8_Augment_SejuaniCarry",
             "desc": "Gain a Sejuani. She has @Resists@ Armor and Magic Resist, and her Ability hits the entire board.",
             "effects": {
@@ -1280,7 +303,7 @@
             "desc": "Gain a Jinx. When she scores a takedown, she gains @BonusSpeed*100@% Attack Speed and movement speed for @Duration@ seconds.",
             "effects": {
                 "Duration": 7.0,
-                "{4eebf7ef}": 1.25
+                "BonusSpeed": 1.25
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Jinx/HUD/TFT8_Jinx.TFT_Set8.dds",
@@ -1292,7 +315,7 @@
             "apiName": "TFT8_Augment_FioraCarry",
             "desc": "Gain a Fiora. While her Ability is active, she gains @BonusResistances@ Armor and Magic Resist.",
             "effects": {
-                "{861cdd9e}": 175.0
+                "BonusResistances": 175.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Fiora/HUD/TFT8_Fiora.TFT_Set8.dds",
@@ -1334,8 +357,8 @@
             "apiName": "TFT8_Augment_MordekaiserCarry",
             "desc": "Gain a Mordekaiser. He gains @StackingAP@ Ability Power every @Frequency@ seconds.",
             "effects": {
-                "{2fb31c01}": 4.0,
-                "{bfb90928}": 20.0
+                "Frequency": 4.0,
+                "StackingAP": 20.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Mordekaiser/HUD/TFT8_Mordekaiser.TFT_Set8.dds",
@@ -1347,8 +370,7 @@
             "apiName": "TFT8_Augment_BlitzcrankCarry",
             "desc": "Gain a Blitzcrank and a Gargoyle Stoneplate. When he casts his Ability, its duration increases by @DurationIncrease@ seconds per enemy targeting him.",
             "effects": {
-                "{75fd67f5}": 2.0,
-                "{f443fa66}": 1.0
+                "DurationIncrease": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Blitzcrank/HUD/TFT8_Blitzcrank.TFT_Set8.dds",
@@ -1383,7 +405,7 @@
             "desc": "Gain a Lulu. When she casts her Ability, she gains @BonusHealth@ bonus Health and @BonusAP@ Ability Power (this can stack).",
             "effects": {
                 "BonusHealth": 125.0,
-                "{d49caf5d}": 20.0
+                "BonusAP": 20.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Lulu/HUD/TFT8_Lulu.TFT_Set8.dds",
@@ -1406,8 +428,8 @@
             "desc": "Gain a Senna. She gains @BaseAS*100@% Attack Speed and bonus @BonusAS*100@% every @Frequency@ seconds.",
             "effects": {
                 "BonusAS": 0.20000000298023224,
-                "{2acb3e58}": 0.20000000298023224,
-                "{2fb31c01}": 5.0
+                "BaseAS": 0.20000000298023224,
+                "Frequency": 5.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Senna/HUD/TFT8_Senna.TFT_Set8.dds",
@@ -1443,8 +465,8 @@
             "apiName": "TFT8_Augment_SylasSupport",
             "desc": "Gain a Sylas. When you field him, your team gains @StartingMana@ starting Mana, and his Ability @ManaReavePercent@% <TFTKeyword>Mana Reaves</TFTKeyword> enemies.<br>",
             "effects": {
-                "{1a97299e}": 30.0,
-                "{ffea5c28}": 35.0
+                "StartingMana": 30.0,
+                "ManaReavePercent": 35.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sylas/HUD/TFT8_Sylas.TFT_Set8.dds",
@@ -1478,7 +500,7 @@
             "effects": {
                 "Duration": 3.0,
                 "ShieldRatio": 0.4000000059604645,
-                "{4ed1f1d8}": 1.0
+                "Delay": 1.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sett/HUD/TFT8_Sett.TFT_Set8.dds",
@@ -1491,7 +513,7 @@
             "desc": "Gain a Zac. Combat start: He flings his @NumAllies@ nearest allies to the enemy backline, <TFTKeyword>Stunning</TFTKeyword> enemies for @StunDuration@ seconds.",
             "effects": {
                 "StunDuration": 3.0,
-                "{79a51d61}": 2.0
+                "NumAllies": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Zac/HUD/TFT8_Zac.TFT_Set8.dds",
@@ -1515,8 +537,7 @@
             "apiName": "TFT8_Augment_NunuCarry",
             "desc": "Gain a Nunu. He has @BonusAP@ Ability Power and 20% movement speed.",
             "effects": {
-                "{8d2da66c}": 350.0,
-                "{d49caf5d}": 10.0
+                "BonusAP": 10.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Nunu/HUD/TFT8_Nunu.TFT_Set8.dds",
@@ -1570,8 +591,8 @@
             "apiName": "TFT8_Augment_ViegoCarry",
             "desc": "Gain a Viego. He has @BonusAP@ Ability Power, and his Ability deals up to @IncreasedDamagePercent*100@% increased damage based on the enemy's missing Health.",
             "effects": {
-                "{7911d2bb}": 0.5,
-                "{d49caf5d}": 10.0
+                "IncreasedDamagePercent": 0.5,
+                "BonusAP": 10.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Viego/HUD/TFT8_Viego.TFT_Set8.dds",
@@ -1614,8 +635,8 @@
             "desc": "Gain a Renekton. He gains @BaseAS@% Attack Speed and an extra @AS@% per @PerMissingHealth@ missing Health.",
             "effects": {
                 "AS": 4.0,
-                "{27c79872}": 100.0,
-                "{2acb3e58}": 60.0
+                "PerMissingHealth": 100.0,
+                "BaseAS": 60.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Renekton/HUD/TFT8_Renekton.TFT_Set8.dds",
@@ -1628,7 +649,7 @@
             "desc": "Gain an Annie. When you field her, your team gains @BonusAP@ Ability Power, tripled while they are below @HealthThreshold*100@% Health.",
             "effects": {
                 "HealthThreshold": 0.5,
-                "{d49caf5d}": 15.0
+                "BonusAP": 15.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Annie/HUD/TFT8_Annie.TFT_Set8.dds",
@@ -1640,7 +661,7 @@
             "apiName": "TFT8_Augment_ApheliosCarry",
             "desc": "Gain an Aphelios. His attacks @ArmorShred*100@% <TFTKeyword>Sunder</TFTKeyword> enemies for the rest of combat (this can stack).",
             "effects": {
-                "{826ded1e}": 0.20000000298023224
+                "ArmorShred": 0.20000000298023224
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Aphelios/HUD/TFT8_Aphelios.TFT_Set8.dds",
@@ -1664,8 +685,8 @@
             "apiName": "TFT8_Augment_LeonaCarry",
             "desc": "Gain a Leona. She has @BonusAP@ Ability Power, and her Abilities cost @MaxManaReduction@ less to cast.",
             "effects": {
-                "{80330413}": 30.0,
-                "{d49caf5d}": 30.0
+                "MaxManaReduction": 30.0,
+                "BonusAP": 30.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Leona/HUD/TFT8_Leona.TFT_Set8.dds",
@@ -1677,7 +698,7 @@
             "apiName": "TFT8_Augment_ChoGathCarry",
             "desc": "Gain a Cho'Gath. Each time his Ability hits an enemy, he steals @MRSteal@% of their Magic Resist.",
             "effects": {
-                "{728feef9}": 60.0
+                "MRSteal": 60.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Chogath/HUD/TFT8_Chogath.TFT_Set8.dds",
@@ -1732,7 +753,7 @@
             "desc": "Gain a Zed. He has @AD@% Attack Damage, and for the rest of combat, he gains @ADPercent@% of an enemy's Attack Damage on kill.",
             "effects": {
                 "AD": 15.0,
-                "{bc3d5e29}": 15.0
+                "ADPercent": 15.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Zed/HUD/TFT8_Zed.TFT_Set8.dds",
@@ -1744,7 +765,7 @@
             "apiName": "TFT8_Augment_NilahReflection",
             "desc": "Gain a Nilah. She gains @BonusAP@ Ability Power. Combat start: Your strongest Nilah grants her nearest ally a temporary copy of one of her normal items.",
             "effects": {
-                "{d49caf5d}": 40.0
+                "BonusAP": 40.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Nilah/HUD/TFT8_Nilah.TFT_Set8.dds",
@@ -1793,7 +814,7 @@
                 "AP": 35.0,
                 "ShieldAmount": 350.0,
                 "ShieldDuration": 60.0,
-                "{79a51d61}": 2.0
+                "NumAllies": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Lux/HUD/TFT8_Lux.TFT_Set8.dds",
@@ -1805,7 +826,7 @@
             "apiName": "TFT8_Augment_MordekaiserSupport",
             "desc": "Gain a Mordekaiser. Combat start: He @ResistReduction@% <TFTKeyword>Shreds</TFTKeyword> and @ResistReduction@% <TFTKeyword>Sunders</TFTKeyword> enemies.",
             "effects": {
-                "{deec2708}": 20.0
+                "ResistReduction": 20.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Mordekaiser/HUD/TFT8_Mordekaiser.TFT_Set8.dds",
@@ -1827,7 +848,7 @@
             "apiName": "TFT8_Augment_JannaSupport",
             "desc": "Gain a Janna. Forecaster's effects are increased by @BonusWeather*100@%.",
             "effects": {
-                "{bdd99658}": 1.0
+                "BonusWeather": 1.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Janna/HUD/TFT8_Janna.TFT_Set8.dds",
@@ -1841,7 +862,7 @@
             "effects": {
                 "BonusHealth": 300.0,
                 "StunDuration": 1.5,
-                "{f0f10b3f}": 1.0
+                "NumTargets": 1.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Blitzcrank/HUD/TFT8_Blitzcrank.TFT_Set8.dds",
@@ -1867,7 +888,7 @@
             "desc": "Gain a Sejuani. Her Ability <TFTKeyword>Stuns</TFTKeyword> for @StunIncrease@ more seconds, and enemies take @DamageAmp@% more damage while <TFTKeyword>Stunned</TFTKeyword>.",
             "effects": {
                 "DamageAmp": 20.0,
-                "{64d5fca1}": 1.0
+                "StunIncrease": 1.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sejuani/HUD/TFT8_Sejuani.TFT_Set8.dds",
@@ -1923,7 +944,7 @@
             "desc": "Gain a Miss Fortune. After every @Combats@ player combats fielded, she drops @Gold@ gold.",
             "effects": {
                 "Gold": 20.0,
-                "{cc06ab16}": 3.0
+                "Combats": 3.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_MissFortune/HUD/TFT8_MissFortune.TFT_Set8.dds",
@@ -1935,7 +956,7 @@
             "apiName": "TFT8_Augment_SyndraCarry",
             "desc": "Gain a Syndra. Allies summoned by her Ability gain @BonusStats@% Attack Damage and @BonusStats@ Ability Power, Armor, and Magic Resist.",
             "effects": {
-                "{83e12d6f}": 70.0
+                "BonusStats": 70.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Syndra/HUD/TFT8_Syndra.TFT_Set8.dds",
@@ -1968,8 +989,8 @@
             "desc": "Gain a Kayle. Combat start: She and her @NumAllies@ nearest allies gain +@BonusRange@ Attack Range and @AttackSpeed*100@% Attack Speed.",
             "effects": {
                 "AttackSpeed": 0.25,
-                "{0c712be9}": 2.0,
-                "{79a51d61}": 2.0
+                "BonusRange": 2.0,
+                "NumAllies": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Kayle/HUD/TFT8_Kayle.TFT_Set8.dds",
@@ -1981,7 +1002,7 @@
             "apiName": "TFT8_Augment_ThreatMaxHealth",
             "desc": "Combat start: Threats gain @MaxHealthIncrease@ maximum Health for every Threat champion on your board.",
             "effects": {
-                "{20cc7fa3}": 75.0
+                "MaxHealthIncrease": 75.0
             },
             "from": [],
             "icon": "ASSETS/Maps/TFT/Icons/Augments/Hexcore/ThreatLevelMaxiumum-II.TFT_Set8.dds",
@@ -2006,8 +1027,7 @@
             "apiName": "TFT8_Augment_YuumiSupport",
             "desc": "Gain a Yuumi. When you field her, your team gains @BonusAS*100@% Attack Speed, and zooms towards their targets.",
             "effects": {
-                "BonusAS": 0.20000000298023224,
-                "{57b6d2c4}": 0.4000000059604645
+                "BonusAS": 0.20000000298023224
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Yuumi/HUD/TFT8_Yuumi.TFT_Set8.dds",
@@ -2020,7 +1040,7 @@
             "desc": "Gain a Galio. When you field him, your team gains @ArmorMR@ Armor and Magic Resist, doubled for @Duration@ seconds after being shielded.",
             "effects": {
                 "Duration": 4.0,
-                "{6cd9afeb}": 20.0
+                "ArmorMR": 20.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Galio/HUD/TFT8_Galio.TFT_Set8.dds",
@@ -2033,9 +1053,9 @@
             "desc": "Gain a Kayle. She gains bonuses per star level:<br>1: @AttackSpeed*100@% Attack Speed<br>2: And +@BonusRange@ Attack Range<br>3: And attacks fire @BonusAttacks@ extra bolts that deal @BonusAttackReducedDamage*100@% damage",
             "effects": {
                 "AttackSpeed": 0.5,
-                "{0c712be9}": 3.0,
-                "{28313999}": 2.0,
-                "{75d84d1b}": 0.5
+                "BonusRange": 3.0,
+                "BonusAttacks": 2.0,
+                "BonusAttackReducedDamage": 0.5
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Kayle/HUD/TFT8_Kayle.TFT_Set8.dds",
@@ -2067,7 +1087,7 @@
             "apiName": "TFT8_Augment_UrgotCarry",
             "desc": "Gain an Urgot. His Ability has an extra @TreasureIncrease*100@% chance to dredge up treasure.",
             "effects": {
-                "{0cdbab74}": 0.25
+                "TreasureIncrease": 0.25
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Urgot/HUD/TFT8_Urgot.TFT_Set8.dds",
@@ -2106,7 +1126,7 @@
             "effects": {
                 "BonusDamage": 20.0,
                 "HealthThreshold": 1600.0,
-                "{d49caf5d}": 20.0
+                "BonusAP": 20.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Taliyah/HUD/TFT8_Taliyah.TFT_Set8.dds",
@@ -2131,7 +1151,7 @@
             "desc": "Gain an Ekko. When you field him, he <TFTKeyword>Stuns</TFTKeyword> all enemies for @StunDuration@ seconds after @Delay@ seconds of combat.",
             "effects": {
                 "StunDuration": 2.0,
-                "{4ed1f1d8}": 10.0
+                "Delay": 10.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Ekko/HUD/TFT8_Ekko.TFT_Set8.dds",
@@ -2155,8 +1175,8 @@
             "apiName": "TFT8_Augment_NasusCarry",
             "desc": "Gain a Nasus. He has @StartingAD@% Attack Damage, which increases permanently by @StackingAD@% when he casts his Ability.",
             "effects": {
-                "{9c6a27a4}": 10.0,
-                "{b3b8f644}": 2.0
+                "StartingAD": 10.0,
+                "StackingAD": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Nasus/HUD/TFT8_Nasus.TFT_Set8.dds",
@@ -2189,7 +1209,7 @@
             "desc": "Gain a Draven. He has @BonusAD@% Attack Damage. When he kills an enemy, there is a @GoldChance@% chance to gain 1 gold.",
             "effects": {
                 "BonusAD": 35.0,
-                "{2dd33743}": 35.0
+                "GoldChance": 35.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Draven/HUD/TFT8_Draven.TFT_Set8.dds",
@@ -2201,7 +1221,7 @@
             "apiName": "TFT8_Augment_SyndraSupport",
             "desc": "Gain a Syndra. When you field her, your team gains @BonusAP@ Ability Power per champion on your bench.",
             "effects": {
-                "{d49caf5d}": 5.0
+                "BonusAP": 5.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Syndra/HUD/TFT8_Syndra.TFT_Set8.dds",
@@ -2213,7 +1233,7 @@
             "apiName": "TFT8_Augment_RenegadePartners",
             "desc": "Gain a Viego. When you field him, your team gains @Omnivamp@% <TFTKeyword>Omnivamp</TFTKeyword>, tripled when 2 or less allies remain.",
             "effects": {
-                "{ad16f688}": 12.0
+                "Omnivamp": 12.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Viego/HUD/TFT8_Viego.TFT_Set8.dds",
@@ -2308,18 +1328,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT8_HyperRollAugment_EzrealSupport",
-            "desc": "Gain an Ezreal. Combat start: Your strongest Ezreal grants his nearest ally a temporary Artifact for the rest of combat and gains @Gold@ gold.",
-            "effects": {
-                "Gold": 2.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Ezreal/HUD/TFT8_Ezreal.TFT_Set8.dds",
-            "id": 9683,
-            "name": "Raider's Spoils",
-            "unique": false
-        },
-        {
             "apiName": "TFT8_Augment_BrawlerEmblem",
             "desc": "Gain a Brawler Emblem and a Lee Sin.",
             "effects": {},
@@ -2397,19 +1405,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT8_HyperRollAugment_NasusCarry",
-            "desc": "Gain a Nasus. He has @StartingAD@% Attack Damage, which increases permanently by @StackingAD@% when he casts his Ability.",
-            "effects": {
-                "{9c6a27a4}": 20.0,
-                "{b3b8f644}": 6.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Nasus/HUD/TFT8_Nasus_Square.TFT_Set8.dds",
-            "id": 9674,
-            "name": "Stacks on Stacks",
-            "unique": false
-        },
-        {
             "apiName": "TFT8_Augment_HeartEmblem2",
             "desc": "Gain a Heart Emblem, a ZZ'rot Portal, and a Sona.",
             "effects": {},
@@ -2466,8 +1461,7 @@
             "desc": "Gain a Bel'Veth. She has @BaseOmnivamp*100@% <TFTKeyword>Omnivamp</TFTKeyword>, tripled while under @HealthThreshold*100@% Health.",
             "effects": {
                 "HealthThreshold": 0.5,
-                "{bb5fb1b0}": 0.75,
-                "{f0746a29}": 0.25
+                "BaseOmnivamp": 0.25
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_BelVeth/HUD/TFT8_BelVeth.TFT_Set8.dds",
@@ -2501,8 +1495,8 @@
             "apiName": "TFT8_Augment_GangplankSupport",
             "desc": "Gain a Gangplank. When you field him, your team has a @GoldChance@% chance to gain @BonusKillGold@ gold on kill.",
             "effects": {
-                "{2dd33743}": 50.0,
-                "{d5fb325a}": 1.0
+                "GoldChance": 50.0,
+                "BonusKillGold": 1.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Gangplank/HUD/TFT8_Gangplank.TFT_Set8.dds",
@@ -2524,8 +1518,8 @@
             "apiName": "TFT8_Augment_RellSupport",
             "desc": "Gain a Rell. When you field her, your team gains @BonusResistances@ Armor and Magic Resist, and @StackingResistances@ when they cast Abilities (this can stack).",
             "effects": {
-                "{861cdd9e}": 20.0,
-                "{da858795}": 5.0
+                "BonusResistances": 20.0,
+                "StackingResistances": 5.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Rell/HUD/TFT8_Rell.TFT_Set8.dds",
@@ -2570,7 +1564,7 @@
             "desc": "Gain a Vel'Koz. His Ability deals an additional @BurnPercent@% of its damage over the next @Duration@ seconds (this can stack).",
             "effects": {
                 "Duration": 20.0,
-                "{57706a69}": 200.0
+                "BurnPercent": 200.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Velkoz/HUD/TFT8_Velkoz.TFT_Set8.dds",
@@ -2592,8 +1586,8 @@
             "apiName": "TFT8_Augment_AlistarAoEPulverizer",
             "desc": "Gain an Alistar. He restores @ManaRegen@ Mana per second and his Ability hits all enemies within @HexRadius@ hex(es).",
             "effects": {
-                "{5cc52ba8}": 1.0,
-                "{d8f646f3}": 15.0
+                "HexRadius": 1.0,
+                "ManaRegen": 15.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Alistar/HUD/TFT8_Alistar.TFT_Set8.dds",
@@ -2632,19 +1626,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT8_HyperRollAugment_SamiraSupport",
-            "desc": "Gain a Samira. Your team gains @AttackSpeed*100@% Attack Speed for each @Health@ Tactician Health missing.",
-            "effects": {
-                "AttackSpeed": 0.04500000178813934,
-                "Health": 2.0
-            },
-            "from": [],
-            "icon": "ASSETS/Characters/TFT8_Samira/HUD/TFT8_Samira.TFT_Set8.dds",
-            "id": 9679,
-            "name": "Daredevil",
-            "unique": false
-        },
-        {
             "apiName": "TFT8_Augment_SamiraSupport",
             "desc": "Gain a Samira. Your team gains @AttackSpeed*100@% Attack Speed for each @Health@ Tactician Health missing.",
             "effects": {
@@ -2672,7 +1653,7 @@
             "desc": "Gain a Rammus. When struck by an attack, he deals magic damage equal to @ArmorPercent@% of his Armor to all nearby enemies (once every @ICD@ seconds).",
             "effects": {
                 "ICD": 2.0,
-                "{abfc283d}": 150.0
+                "ArmorPercent": 150.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Rammus/HUD/TFT8_Rammus.TFT_Set8.dds",
@@ -2685,7 +1666,7 @@
             "desc": "Gain a Zoe. Combat start: She <TFTKeyword>Stuns</TFTKeyword> the @NumTargets@ lowest Health enemies for @StunDuration@ seconds.",
             "effects": {
                 "StunDuration": 4.0,
-                "{f0f10b3f}": 3.0
+                "NumTargets": 3.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Zoe/HUD/TFT8_Zoe.TFT_Set8.dds",
@@ -2721,7 +1702,7 @@
             "apiName": "TFT8_Augment_LuluSupport",
             "desc": "Gain a Lulu. When you field her, she and allies holding an item gain @BonusAP@ Ability Power.",
             "effects": {
-                "{d49caf5d}": 40.0
+                "BonusAP": 40.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Lulu/HUD/TFT8_Lulu.TFT_Set8.dds",
@@ -2746,7 +1727,7 @@
             "desc": "Gain a Vayne. Her Ability also fires at @NumTargets@ other nearby enemies, dealing @DamagePercent@% damage.",
             "effects": {
                 "DamagePercent": 75.0,
-                "{f0f10b3f}": 2.0
+                "NumTargets": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Vayne/HUD/TFT8_Vayne.TFT_Set8.dds",
@@ -2790,7 +1771,7 @@
             "apiName": "TFT8_Augment_JannaCarry",
             "desc": "Gain a Janna. Her Ability restores @BonusMana@ Mana per enemy hit.",
             "effects": {
-                "{43012963}": 15.0
+                "BonusMana": 15.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Janna/HUD/TFT8_Janna.TFT_Set8.dds",
@@ -2802,8 +1783,8 @@
             "apiName": "TFT8_Augment_YuumiCarry",
             "desc": "Gain a Yuumi. She gains @BonusAP@ Ability Power, @BonusCritChance*100@% Critical Strike Chance, and her Ability can critically strike.",
             "effects": {
-                "{c34a89ec}": 0.75,
-                "{d49caf5d}": 5.0
+                "BonusCritChance": 0.75,
+                "BonusAP": 5.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Yuumi/HUD/TFT8_Yuumi.TFT_Set8.dds",
@@ -2838,7 +1819,7 @@
             "desc": "Gain a Lee Sin. His Ability costs @ManaReduction@ less Mana to cast. When he casts, he sheds all negative effects and heals @HealPercent*100@% of his missing Health.",
             "effects": {
                 "HealPercent": 0.11999999731779099,
-                "{7ccd3647}": 30.0
+                "ManaReduction": 30.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_LeeSin/HUD/TFT8_LeeSin.TFT_Set8.dds",
@@ -2861,7 +1842,7 @@
             "desc": "Gain a Riven. Combat start: She grants herself and adjacent allies a shield for @ShieldDuration@ seconds equal to @MaxHealthPercent@% of their maximum Health.",
             "effects": {
                 "ShieldDuration": 15.0,
-                "{f12d8928}": 40.0
+                "MaxHealthPercent": 40.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Riven/HUD/TFT8_Riven.TFT_Set8.dds",
@@ -2873,9 +1854,8 @@
             "apiName": "TFT8_Augment_TalonCarry",
             "desc": "Gain a Talon. He gains @BonusAP@ Ability Power. After killing an enemy, he restores @BonusKillMana@ Mana.",
             "effects": {
-                "{0fdc4373}": 40.0,
-                "{6a8531cd}": "null",
-                "{d49caf5d}": 60.0
+                "BonusKillMana": 40.0,
+                "BonusAP": 60.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Talon/HUD/TFT8_Talon.TFT_Set8.dds",
@@ -2898,7 +1878,7 @@
             "desc": "Gain a Samira. She has @BonusAD@% Attack Damage. When she scores a takedown, she restores @ManaPercent@% of her maximum Mana.",
             "effects": {
                 "BonusAD": 30.0,
-                "{009085db}": 30.0
+                "ManaPercent": 30.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Samira/HUD/TFT8_Samira.TFT_Set8.dds",
@@ -2923,9 +1903,7 @@
             "apiName": "TFT8_Augment_SettCarry",
             "desc": "Gain a Sett. He has @BonusResists@ Armor and Magic Resist. His Ability knocks back the first enemy struck, destroying them if knocked off the arena.",
             "effects": {
-                "BonusResists": 40.0,
-                "{0e1b940b}": 3.0,
-                "{0f2fb8f5}": 1.0
+                "BonusResists": 40.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sett/HUD/TFT8_Sett.TFT_Set8.dds",
@@ -2938,7 +1916,7 @@
             "desc": "Gain a Sivir. When you field her, your team heals @HealPercent*100@% of their missing Health and sheds all negative effects every @Frequency@ seconds.",
             "effects": {
                 "HealPercent": 0.15000000596046448,
-                "{2fb31c01}": 7.0
+                "Frequency": 7.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sivir/HUD/TFT8_Sivir.TFT_Set8.dds",
@@ -2950,7 +1928,7 @@
             "apiName": "TFT8_Augment_FiddlesticksSupport",
             "desc": "Gain a Fiddlesticks. Combat start: Fiddlesticks grants its nearest ally @BonusAP@ Ability Power and allows them to share its Corrupted souls.",
             "effects": {
-                "{d49caf5d}": 30.0
+                "BonusAP": 30.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Fiddlesticks/HUD/TFT8_Fiddlesticks.TFT_Set8.dds",
@@ -2976,7 +1954,7 @@
             "effects": {
                 "DamageAmp": 75.0,
                 "StunDuration": 2.0,
-                "{7ccd3647}": 50.0
+                "ManaReduction": 50.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Galio/HUD/TFT8_Galio.TFT_Set8.dds",
@@ -2988,9 +1966,9 @@
             "apiName": "TFT8_Augment_NunuSupport",
             "desc": "Gain a Nunu. When you field him, your team gains @BonusAP@ Ability Power and an additional @StackingAP@ every @Frequency@ seconds.",
             "effects": {
-                "{2fb31c01}": 5.0,
-                "{bfb90928}": 10.0,
-                "{d49caf5d}": 10.0
+                "Frequency": 5.0,
+                "StackingAP": 10.0,
+                "BonusAP": 10.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Nunu/HUD/TFT8_Nunu.TFT_Set8.dds",
@@ -3003,8 +1981,8 @@
             "desc": "Gain a Jax. When you field him, your team gains @DodgeChance@% Dodge Chance for @DodgeDuration@ seconds the first time they fall below @HealthThreshold@% Health each combat.",
             "effects": {
                 "HealthThreshold": 50.0,
-                "{852a9a90}": 2.0,
-                "{c4b5579c}": 100.0
+                "DodgeDuration": 2.0,
+                "DodgeChance": 100.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Jax/HUD/TFT8_Jax.TFT_Set8.dds",
@@ -3016,8 +1994,8 @@
             "apiName": "TFT8_Augment_ViCarry",
             "desc": "Gain a Vi. When she takes or deals damage, she gains @BonusStats@% Attack Damage and @BonusStats@ Ability Power, Armor, and Magic Resist, stacking up to @StackCap@ times.",
             "effects": {
-                "{83e12d6f}": 3.0,
-                "{9396f00d}": 25.0
+                "BonusStats": 3.0,
+                "StackCap": 25.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Vi/HUD/TFT8_Vi.TFT_Set8.dds",
@@ -3054,7 +2032,7 @@
             "desc": "Gain a Nilah. Combat start: She and her @NumAllies@ nearest allies gain immunity to crowd control for @Duration@ seconds.",
             "effects": {
                 "Duration": 20.0,
-                "{79a51d61}": 4.0
+                "NumAllies": 4.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Nilah/HUD/TFT8_Nilah.TFT_Set8.dds",
@@ -3079,8 +2057,8 @@
             "desc": "Gain an Aphelios. When you field him, your team gains @BonusAD@% Attack Damage plus an extra @StackingAD@% every @Frequency@ seconds.",
             "effects": {
                 "BonusAD": 10.0,
-                "{2fb31c01}": 5.0,
-                "{b3b8f644}": 5.0
+                "Frequency": 5.0,
+                "StackingAD": 5.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Aphelios/HUD/TFT8_Aphelios.TFT_Set8.dds",
@@ -3127,7 +2105,7 @@
             "apiName": "TFT8_Augment_AurelionSolCarry",
             "desc": "Gain an Aurelion Sol. He has @BonusAP@ Ability Power and his Ability's meteors are larger.",
             "effects": {
-                "{d49caf5d}": 10.0
+                "BonusAP": 10.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_AurelionSol/HUD/TFT8_AurelionSol.TFT_Set8.dds",
@@ -3139,7 +2117,7 @@
             "apiName": "TFT8_Augment_ZoeDoubleTrouble",
             "desc": "Gain a Zoe. Her Ability launches a second bubble at a different target, dealing @DamageMult*100@% damage.",
             "effects": {
-                "{292d829e}": 0.6000000238418579
+                "DamageMult": 0.6000000238418579
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Zoe/HUD/TFT8_Zoe.TFT_Set8.dds",
@@ -3162,15 +2140,16 @@
             "desc": "Gain a Sona. Combat start: Your strongest Sona grants her @NumAllies@ nearest allies @ManaRestore@ Mana.",
             "effects": {
                 "ManaRestore": 50.0,
-                "{79a51d61}": 2.0
+                "NumAllies": 2.0
             },
             "from": [],
             "icon": "ASSETS/Characters/TFT8_Sona/HUD/TFT8_Sona.TFT_Set8.dds",
             "id": 9541,
             "name": "Undercurrent",
             "unique": false
-        },
-        
+        }
+    ],
+    "items":[    
         {
             "apiName": "TFT8_Item_CivilianEmblemItem",
             "desc": "The holder gains the Civilian Trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
@@ -3463,10 +2442,8 @@
             "apiName": "TFT8_Item_RapidFireCannon_GenAE",
             "desc": "Grant %i:scaleAS% @BonusAS@% bonus Attack Speed and %i:scaleRange% @HexRangeIncrease@ Attack Range.<br><br>Attacks cannot miss.  <br><br>Self-destructs after @TFTUnitProperty.trait:TFT8_GenAE_Durability@ round of player combat. ",
             "effects": {
-                "AS": 20.0,
                 "BonusAS": 40.0,
-                "{16394c87}": 3.0,
-                "{9f5117db}": 100.0
+                "HexRangeIncrease": 100.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_RapidFireCannon.dds",
@@ -3481,10 +2458,9 @@
                 "Armor": 20.0,
                 "BonusHP": 250.0,
                 "CritChance": 20.0,
-                "{4516a18d}": 60.0,
-                "{a861afa0}": 35.0,
-                "{a98f7b85}": 3.0,
-                "{c1c481b8}": 20.0
+                "CostIncrease": 35.0,
+                "SlowSeconds": 3.0,
+                "SlowPercentage": 20.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_ShroudOfStillness.dds",
@@ -3498,9 +2474,9 @@
             "effects": {
                 "AD": 0.10000000149011612,
                 "Mana": 15.0,
-                "{43012963}": 30.0,
-                "{4b9a3b61}": 20.0,
-                "{d49caf5d}": 20.0
+                "BonusMana": 30.0,
+                "FlatManaRestore": 20.0,
+                "BonusAP": 20.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_SpearOfShojin.dds",
@@ -3515,8 +2491,8 @@
                 "BaseHeal": 20.0,
                 "CritChance": 20.0,
                 "Mana": 15.0,
-                "{6bac277d}": 25.0,
-                "{a3814259}": 0.25
+                "APBuff": 25.0,
+                "ADBuff": 0.25
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_HandOfJustice.dds",
@@ -3531,10 +2507,10 @@
                 "AP": 10.0,
                 "Damage": 250.0,
                 "MagicResist": 20.0,
-                "{9b1e8f37}": 2.0,
-                "{df6f64b9}": 250.0,
-                "{f80ce8e6}": 4.0,
-                "{fe079f34}": 50.0
+                "HexRange": 2.0,
+                "ManaRatio": 250.0,
+                "TauntRefresh": 4.0,
+                "MRShred": 50.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_IonicSpark.dds",
@@ -3550,8 +2526,8 @@
                 "AS": 10.0,
                 "BonusAD": 0.20000000298023224,
                 "HealthThreshold": 1.0,
-                "{b8ae7546}": 30.0,
-                "{d49caf5d}": 20.0
+                "LargeBonusPct": 30.0,
+                "BonusAP": 20.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_GiantSlayer.dds",
@@ -3565,8 +2541,7 @@
             "effects": {
                 "BonusHP": 600.0,
                 "Health": 300.0,
-                "{52358605}": 1.0,
-                "{8f854a28}": 0.5
+                "MaxHealthRegen": 0.5
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_WarmogsArmor.dds",
@@ -3583,10 +2558,10 @@
                 "Health": 150.0,
                 "ICD": 1.0,
                 "MonsterCap": 100.0,
-                "{2161bfa2}": 33.0,
-                "{57706a69}": 10.0,
-                "{97e52ce8}": 10.0,
-                "{9b1e8f37}": 3.0
+                "GrievousWoundsPercent": 33.0,
+                "BurnPercent": 10.0,
+                "BurnDuration": 10.0,
+                "HexRange": 3.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_SunfireCape.dds",
@@ -3603,8 +2578,8 @@
                 "LifeSteal": 20.0,
                 "MagicResist": 20.0,
                 "ShieldDuration": 8.0,
-                "{0034a6ef}": 25.0,
-                "{f6564b98}": 0.5
+                "ShieldHealthPercent": 25.0,
+                "BonusShieldAD": 0.5
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TFT8_GenAE_Items/TFT8_GenAE_Item_Bloodthirster.dds",
@@ -3672,8 +2647,8 @@
                 "AS": 10.0,
                 "BonusAD": 0.20000000298023224,
                 "HealthThreshold": 1600.0,
-                "{b8ae7546}": 25.0,
-                "{d49caf5d}": 20.0
+                "LargeBonusPct": 25.0,
+                "BonusAP": 20.0
             },
             "from": [
                 1,
@@ -3685,55 +2660,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT7_Item_ProdigyItemA",
-            "desc": "This unit cannot hold items.",
-            "effects": {
-                "AttackSpeed": 1.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Placeholders/TFT_Item_UnusableSlot.dds",
-            "id": 3080,
-            "name": "",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_Blank",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Transparent.dds",
-            "id": 4441,
-            "name": null,
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_Hex_Inferno",
-            "desc": "tft_item_description_InfernoHex",
-            "effects": {
-                "{a8ca7859}": 30.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hex_Inferno.dds",
-            "id": 10201,
-            "name": "tft_item_name_InfernoHexBuff",
-            "unique": false
-        },
-        {
-            "apiName": "TFT4_Item_OrnnObsidianCleaver",
-            "desc": "Attacks and Abilities @Shred@% <TFTKeyword>Shred</TFTKeyword> and @Shred@% <TFTKeyword>Sunder</TFTKeyword> enemies for @Duration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Shred</tftbold>: reduce Magic Resist<br><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules>",
-            "effects": {
-                "AD": 0.20000000298023224,
-                "Duration": 5.0,
-                "Health": 150.0,
-                "{a8d6e8b5}": 50.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T3_BlackCleaver.dds",
-            "id": 9006,
-            "name": "Obsidian Cleaver",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_RedBuff",
             "desc": "Grant %i:scaleHealth% @BonusHP@ bonus Health. Every @ICD@ seconds, an enemy within @HexRange@ hexes is @BurnPercent@% <TFTKeyword>Burned</TFTKeyword> and @GrievousWoundsPercent@% <TFTKeyword>Wounded</TFTKeyword> for @BurnDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
             "effects": {
@@ -3742,10 +2668,10 @@
                 "Health": 150.0,
                 "ICD": 2.0,
                 "MonsterCap": 100.0,
-                "{2161bfa2}": 33.0,
-                "{57706a69}": 10.0,
-                "{97e52ce8}": 10.0,
-                "{9b1e8f37}": 2.0
+                "GrievousWoundsPercent": 33.0,
+                "BurnPercent": 10.0,
+                "BurnDuration": 10.0,
+                "HexRange": 2.0
             },
             "from": [
                 5,
@@ -3754,36 +2680,6 @@
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Sunfire_Cape.dds",
             "id": 57,
             "name": "Sunfire Cape",
-            "unique": true
-        },
-        {
-            "apiName": "TFT7_Item_MageEmblemItem",
-            "desc": "The holder gains the Mage trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "Mana": 15.0
-            },
-            "from": [
-                8,
-                4
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Mage.TFT_Set7.dds",
-            "id": 2311,
-            "name": "Mage Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_ImperialEmblemItem",
-            "desc": "The holder gains the Imperial trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "AD": 10.0
-            },
-            "from": [
-                8,
-                1
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Imperial.dds",
-            "id": 18,
-            "name": "Imperial Emblem",
             "unique": true
         },
         {
@@ -3797,42 +2693,14 @@
             "unique": false
         },
         {
-            "apiName": "TFT7_Item_RevelEmblemItem",
-            "desc": "The holder gains the Revel trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Revel.TFT_Set7.dds",
-            "id": 2316,
-            "name": "Revel Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT_Item_SwordOfTheDivine",
-            "desc": "tft_item_description_SwordOfTheDivine2",
-            "effects": {
-                "{48ea2af8}": 7.0,
-                "{98ac43ce}": 50.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_SwordOfTheDivine.dds",
-            "id": -100,
-            "name": "tft_item_name_SwordOfTheDivine2",
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_UnstableConcoction",
             "desc": "Grant 2 effects:<li>%i:scaleAD% +@BaseAD*100@% Attack Damage and %i:scaleAP% +@BaseSP@ Ability Power.<li>@BaseHeal@% <TFTKeyword>Omnivamp</TFTKeyword>.<br><br>Each round, randomly double 1 of these effects.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>",
             "effects": {
                 "BaseHeal": 10.0,
                 "CritChance": 20.0,
                 "Mana": 15.0,
-                "{19a89153}": 15.0,
-                "{41cb628d}": 0.15000000596046448,
-                "{693a77ae}": 0.15000000596046448,
-                "{a60806db}": 66.66699981689453,
-                "{c0c9af7f}": 15.0
+                "BaseAD": 15.0,
+                "BaseSP": 15.0
             },
             "from": [
                 4,
@@ -3844,23 +2712,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT_Item_CursedBlade",
-            "desc": "TFT_item_description_CursedBlade",
-            "effects": {
-                "AS": 15.0,
-                "MagicResist": 25.0,
-                "{a56e0a21}": 20.0
-            },
-            "from": [
-                -26,
-                -26
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_CursedBlade.dds",
-            "id": -26,
-            "name": "tft_item_name_CursedBlade",
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_GuardianAngel",
             "desc": "Once per combat: At @HealthThreshold@% Health, briefly become untargetable and shed negative effects. Then, gain %i:scaleAS% @AttackSpeed@% bonus Attack Speed.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
             "effects": {
@@ -3868,8 +2719,7 @@
                 "Armor": 20.0,
                 "AttackSpeed": 15.0,
                 "DamageReduction": 100.0,
-                "HealthThreshold": 60.0,
-                "{b1442c34}": 1.0
+                "HealthThreshold": 60.0
             },
             "from": [
                 1,
@@ -3885,11 +2735,11 @@
             "desc": "Grant %i:scaleMana% @BonusMana@ bonus starting Mana and %i:scaleAP% @BonusAP@ bonus Ability Power. Abilities cost %i:scaleMana% @ManaReduction@ less Mana to cast. <br><br>If the holder gets at least 1 takedown within @TakedownTimer@ seconds of casting, gain %i:scaleMana% @ManaOnTakedown@ Mana.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules><br>",
             "effects": {
                 "Mana": 30.0,
-                "{0cea77dc}": 10.0,
-                "{2a5b6a9f}": 3.0,
-                "{43012963}": 10.0,
-                "{7ccd3647}": 10.0,
-                "{d49caf5d}": 10.0
+                "ManaOnTakedown": 10.0,
+                "TakedownTimer": 3.0,
+                "BonusMana": 10.0,
+                "ManaReduction": 10.0,
+                "BonusAP": 10.0
             },
             "from": [
                 4,
@@ -3917,30 +2767,13 @@
             "desc": "Grant %i:scaleAD% @BonusAD*100@% bonus Attack Damage.",
             "effects": {
                 "AD": 30.0,
-                "{55ce8055}": "null",
-                "{d0fcc895}": 40.0
+                "BonusAD": 40.0
             },
-            "from": [],
+            "from": [1, 1],
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_DeathBlade.dds",
             "id": 10004,
             "name": "Deathblade",
             "unique": false
-        },
-        {
-            "apiName": "TFT4_Item_OrnnZhonyasParadox",
-            "desc": "Once per combat: At @PercentHealthThreshold@% Health, become invulnerable and untargetable for @InvulnDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "AP": 40.0,
-                "Armor": 40.0,
-                "MagicResist": 40.0,
-                "{046e3023}": 40.0,
-                "{69247755}": 3.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Mage_T3_ZhonyasHourglass.dds",
-            "id": 9010,
-            "name": "Zhonya's Paradox",
-            "unique": true
         },
         {
             "apiName": "TFT_Item_NegatronCloak",
@@ -3955,27 +2788,14 @@
             "unique": false
         },
         {
-            "apiName": "TFT6_Item_BruiserEmblemItem",
-            "desc": "The holder gains the Bruiser trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Bruiser.dds",
-            "id": 2197,
-            "name": "Bruiser Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_TitansResolve",
             "desc": "Grants %i:scaleAD% @StackingAD*100@% Attack Damage and %i:scaleAP% @StackingAD*100@ Ability Power when attacking or taking damage, stacking up to @StackCap@ times.  <br><br>At full stacks, grant %i:scaleArmor% @BonusResistsAtStackCap@ Armor and %i:scaleMR% @BonusResistsAtStackCap@ Magic Resist.",
             "effects": {
                 "AS": 10.0,
                 "Armor": 20.0,
-                "{9396f00d}": 25.0,
-                "{b3b8f644}": 0.019999999552965164,
-                "{b55019fa}": 25.0,
-                "{cb9689ca}": 2.0
+                "StackCap": 25.0,
+                "StackingAD": 0.019999999552965164,
+                "BonusResistsAtStackCap": 25.0
             },
             "from": [
                 5,
@@ -3987,33 +2807,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT6_Item_SocialiteEmblemItem",
-            "desc": "The holder gains the Socialite trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Socialite.dds",
-            "id": 2193,
-            "name": "Socialite Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_MutantEmblemItem",
-            "desc": "The holder gains the Mutant trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "MagicResist": 20.0
-            },
-            "from": [
-                6,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Mutant.dds",
-            "id": 2190,
-            "name": "Mutant Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_RunaansHurricane",
             "desc": "Grants %i:scaleAD% @BonusAD*100@% bonus Attack Damage. Attacks fire a bolt at a nearby enemy, dealing @MultiplierForDamage@% Attack Damage %i:scaleAD% as physical damage.<br><br><tftitemrules>\u200b\u200b[Direct damage item]</tftitemrules>",
             "effects": {
@@ -4021,7 +2814,7 @@
                 "AdditionalTargets": 1.0,
                 "BonusAD": 0.20000000298023224,
                 "MagicResist": 20.0,
-                "{276ba2c8}": 50.0
+                "MultiplierForDamage": 50.0
             },
             "from": [
                 6,
@@ -4030,84 +2823,6 @@
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Runaans_Hurricane.dds",
             "id": 26,
             "name": "Runaan's Hurricane",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_IsYordle",
-            "desc": "tft_item_description_IsYordle",
-            "effects": {
-                "CritChance": 20.0,
-                "{c4b5579c}": 20.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Mittens.dds",
-            "id": -89,
-            "name": "tft_item_name_Mittens",
-            "unique": true
-        },
-        {
-            "apiName": "TFT7_Item_GuardianEmblemItem",
-            "desc": "The holder gains the Guardian trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [
-                8,
-                7
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Guardian.TFT_Set7.dds",
-            "id": 2323,
-            "name": "Guardian Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT7_Item_TreasureDragonGold9",
-            "desc": "9 gold",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Pairs/AssistGiveGold.dds",
-            "id": 3022,
-            "name": "9 gold",
-            "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_TreasureDragonBlankSlot",
-            "desc": "",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/TreasureDragon/Blank_Treasure_Frame.TFT_Set7.dds",
-            "id": 3020,
-            "name": "",
-            "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_TreasureDragonGold4",
-            "desc": "4 Gold",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Pairs/AssistGiveGold.dds",
-            "id": 3024,
-            "name": "4 Gold",
-            "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_TreasureDragonGold3",
-            "desc": "3 Gold",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Pairs/AssistGiveGold.dds",
-            "id": 3023,
-            "name": "3 Gold",
-            "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_TreasureDragonGold20",
-            "desc": "20 gold",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Pairs/AssistGiveGold.dds",
-            "id": 3021,
-            "name": "20 gold",
             "unique": false
         },
         {
@@ -4143,7 +2858,7 @@
                 "LifeSteal": 20.0,
                 "MagicResist": 20.0,
                 "ShieldDuration": 5.0,
-                "{0034a6ef}": 25.0
+                "ShieldHealthPercent": 25.0
             },
             "from": [
                 1,
@@ -4160,9 +2875,9 @@
             "effects": {
                 "AP": 10.0,
                 "Mana": 15.0,
-                "{5deb4eb2}": 20.0,
-                "{a7db7345}": 5.0,
-                "{d49caf5d}": 10.0
+                "APPerInterval": 20.0,
+                "IntervalSeconds": 5.0,
+                "BonusAP": 10.0
             },
             "from": [
                 3,
@@ -4174,18 +2889,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT6_Item_ScrapEmblemItem",
-            "desc": "The holder gains the Scrap trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Scrap.dds",
-            "id": 2195,
-            "name": "Scrap Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_KnightsVow",
             "desc": "Extra %i:scaleArmor% +@Armor@<br>Holder is also a Knight<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
             "effects": {
@@ -4195,36 +2898,6 @@
             "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_KnightsVow.dds",
             "id": -58,
             "name": "Knight's Vow",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_DebonairEmblemItem",
-            "desc": "The holder gains the Debonair trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "Armor": 20.0
-            },
-            "from": [
-                5,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Debonair.dds",
-            "id": 70,
-            "name": "Debonair Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_ArcanistEmblemItem",
-            "desc": "The holder gains the Arcanist trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "AP": 10.0
-            },
-            "from": [
-                3,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Arcanist.dds",
-            "id": 38,
-            "name": "Arcanist Emblem",
             "unique": true
         },
         {
@@ -4250,37 +2923,11 @@
             "unique": false
         },
         {
-            "apiName": "TFT6_Item_ChallengerEmblemItem",
-            "desc": "The holder gains the Challenger trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "AS": 10.0
-            },
-            "from": [
-                2,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Challenger.dds",
-            "id": 28,
-            "name": "Challenger Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT_Item_DebugMana",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Augments/DU_Augment_SolarPower.TFT_Set7.dds",
-            "id": 411413,
-            "name": null,
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_TitanicHydra",
             "desc": "Combat start: <TFTKeyword>Taunt</TFTKeyword>.<br>On death, a Voidspawn arises, <TFTKeyword>Taunting</TFTKeyword> nearby enemies. <br><br><tftitemrules><tftbold>Taunt</tftbold>: enemies that are able and in range must attack the taunter</tftitemrules>",
             "effects": {
                 "AS": 10.0,
-                "Health": 150.0,
-                "{7ff4f3b6}": 25.0
+                "Health": 150.0
             },
             "from": [
                 2,
@@ -4305,45 +2952,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT7_Item_ScalescornEmblemItem",
-            "desc": "The holder gains the Scalescorn trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Dragonbane.TFT_Set7.dds",
-            "id": 2300,
-            "name": "Scalescorn Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_EliteSpotlight",
-            "desc": "TFT6_Item_Description_EliteSpotlight",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_MagicDust.dds",
-            "id": 9100,
-            "name": "TFT6_Item_Name_EliteSpotlight",
-            "unique": true
-        },
-        {
-            "apiName": "TFT4_Item_OrnnDeathsDefiance",
-            "desc": "Grant @BaseHeal@% <TFTKeyword>Omnivamp</TFTKeyword>. @IgnorePainPercent@% of the damage the holder receives is instead dealt over @BleedDuration@ seconds as non-lethal damage.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>",
-            "effects": {
-                "AD": 0.10000000149011612,
-                "AS": 20.0,
-                "Armor": 20.0,
-                "BaseHeal": 20.0,
-                "{0bc5955f}": 4.0,
-                "{ee37daec}": 50.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T3_DeathsDance.dds",
-            "id": 9002,
-            "name": "Death's Defiance",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_Darkin",
             "desc": "tft_item_description_Darkin",
             "effects": {
@@ -4361,8 +2969,8 @@
             "effects": {
                 "AD": 0.10000000149011612,
                 "Mana": 15.0,
-                "{4b9a3b61}": 20.0,
-                "{d49caf5d}": 15.0
+                "FlatManaRestore": 20.0,
+                "BonusAP": 15.0
             },
             "from": [
                 1,
@@ -4372,18 +2980,6 @@
             "id": 14,
             "name": "Spear of Shojin",
             "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_EvokerEmblemItem",
-            "desc": "The holder gains the Evoker trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Evoker.TFT_Set7.dds",
-            "id": 2317,
-            "name": "Evoker Emblem",
-            "unique": true
         },
         {
             "apiName": "TFT_Item_YoumuusGhostblade",
@@ -4400,64 +2996,11 @@
         {
             "apiName": "TFT_Item_Spatula",
             "desc": "It must do <i>something</i>...",
-            "effects": {
-                "{fe9818ef}": 5.0
-            },
+            "effects": {},
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Spatula.dds",
             "id": 8,
             "name": "Spatula",
-            "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_TrainerSnax",
-            "desc": "Nomsy needs to eat this many more Snax to level up!<br><br><tftitemrules>[This does not count as an item.]</tftitemrules>",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Set7_Trainer/TFT7_TrainerSnax.TFT_Set7.dds",
-            "id": 41105,
-            "name": "Delicious Snax",
-            "unique": false
-        },
-        {
-            "apiName": "TFT6_Item_SyndicateEmblemItem",
-            "desc": "The holder gains the Syndicate trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Syndicate.dds",
-            "id": 68,
-            "name": "Syndicate Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_SniperEmblemItem",
-            "desc": "The holder gains the Sniper trait.<br><br><tftitemrules>[Unique - only 1 per champion<br>Elusive - cannot be crafted.]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Sniper.dds",
-            "id": 2199,
-            "name": "Sniper Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT4_Item_OrnnInfinityForce",
-            "desc": "",
-            "effects": {
-                "AD": 0.25,
-                "AP": 25.0,
-                "AS": 25.0,
-                "Armor": 25.0,
-                "Health": 25.0,
-                "MagicResist": 25.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Fighter_T4_TrinityForce.dds",
-            "id": 9004,
-            "name": "Infinity Force",
             "unique": false
         },
         {
@@ -4467,11 +3010,10 @@
                 "AP": 10.0,
                 "Armor": 20.0,
                 "ShieldDuration": 15.0,
-                "{0d46330d}": 350.0,
-                "{6fb9af6a}": 300.0,
-                "{829e6cec}": 400.0,
-                "{9b1e8f37}": 2.0,
-                "{c78af25f}": 800.0
+                "2StarShieldValue": 350.0,
+                "1StarShieldValue": 300.0,
+                "3StarShieldValue": 400.0,
+                "HexRange": 2.0
             },
             "from": [
                 3,
@@ -4481,18 +3023,6 @@
             "id": 35,
             "name": "Locket of the Iron Solari",
             "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_BruiserEmblemItem",
-            "desc": "The holder gains the Bruiser trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Bruiser.TFT_Set7.dds",
-            "id": 2305,
-            "name": "Bruiser Emblem",
-            "unique": true
         },
         {
             "apiName": "TFT_Item_Yuumi",
@@ -4507,33 +3037,6 @@
             "unique": true
         },
         {
-            "apiName": "TFT7_Item_DragonmancerEmblemItem",
-            "desc": "The holder gains the Dragonmancer trait.",
-            "effects": {
-                "AP": 10.0
-            },
-            "from": [
-                8,
-                3
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Dragonmancer.TFT_Set7.dds",
-            "id": 2426,
-            "name": "Dragonmancer Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT7_Item_DarkflightEmblemItem",
-            "desc": "The holder gains the Darkflight trait.",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Darkflight.TFT_Set7_Stage2.dds",
-            "id": 2101,
-            "name": "Darkflight Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_Morellonomicon",
             "desc": "Grant %i:scaleAP% @BonusAP@ bonus Ability Power. Magic or true damage from the holder's Ability @BurnPercent@% <TFTKeyword>Burns</TFTKeyword> and @GrievousWoundsPercent@% <TFTKeyword>Wounds</TFTKeyword> enemies for @BurnDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Burn</tftbold>: deals some of the target's maximum Health as true damage<br><tftbold>Wound</tftbold>: reduces healing received</tftitemrules>",
             "effects": {
@@ -4541,10 +3044,10 @@
                 "Health": 150.0,
                 "MonsterCap": 100.0,
                 "TicksPerSecond": 1.0,
-                "{2161bfa2}": 33.0,
-                "{57706a69}": 10.0,
-                "{97e52ce8}": 10.0,
-                "{d49caf5d}": 10.0
+                "GrievousWoundsPercent": 33.0,
+                "BurnPercent": 10.0,
+                "BurnDuration": 10.0,
+                "BonusAP": 10.0
             },
             "from": [
                 3,
@@ -4561,8 +3064,7 @@
             "effects": {
                 "AS": 20.0,
                 "BonusAS": 30.0,
-                "{16394c87}": 1.0,
-                "{9f5117db}": 100.0
+                "HexRangeIncrease": 100.0
             },
             "from": [
                 2,
@@ -4596,54 +3098,14 @@
             "unique": false
         },
         {
-            "apiName": "TFT_Consumable_ShopReroller",
-            "desc": "Use on a champion to reroll a special Shop that contains only champions sharing a Trait with the source champion. <br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Consumables/TFT_Item_Consumable_ShopReroll.dds",
-            "id": 201,
-            "name": "Loaded Dice",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_ZhonyasHourglass",
-            "desc": "TFT_item_description_ZhonyasHourglass",
-            "effects": {
-                "AP": 20.0,
-                "Armor": 25.0,
-                "HealthPercent": 30.0,
-                "{c425872e}": 4.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_ZhonyasHourglass.dds",
-            "id": -35,
-            "name": "TFT_item_name_ZhonyasHourglass",
-            "unique": false
-        },
-        {
-            "apiName": "TFT6_Item_StrikerEmblemItem",
-            "desc": "The holder gains the Striker trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "AD": 10.0
-            },
-            "from": [
-                8,
-                1
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Striker.dds",
-            "id": 71,
-            "name": "Striker Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_LastWhisper",
             "desc": "Grant %i:scaleAD% @BonusAD*100@% bonus Attack Damage. Any physical damage dealt @ArmorReductionPercent@% <TFTKeyword>Sunders</TFTKeyword> the target for @ArmorBreakDuration@ seconds. This effect does not stack.<br><br><tftitemrules>[Unique - only 1 per champion]<br><tftbold>Sunder</tftbold>: reduce Armor</tftitemrules>",
             "effects": {
                 "AS": 10.0,
                 "BonusAD": 0.10000000149011612,
                 "CritChance": 20.0,
-                "{5079c7a2}": 50.0,
-                "{cc9fefa7}": 5.0
+                "ArmorReductionPercent": 50.0,
+                "ArmorBreakDuration": 5.0
             },
             "from": [
                 2,
@@ -4655,29 +3117,13 @@
             "unique": true
         },
         {
-            "apiName": "TFT6_Item_AssassinEmblemItem",
-            "desc": "The holder gains the Assassin trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "CritChance": 10.0,
-                "{c4b5579c}": 5.0
-            },
-            "from": [
-                9,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Assassin.dds",
-            "id": 89,
-            "name": "Assassin Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_JeweledGauntlet",
             "desc": "Grants %i:scaleAP% @BonusAP@ bonus Ability Power and %i:scaleCrit% @BonusCritChance@% Critical Strike Chance. <br><br>Damage from an Ability can critically strike.",
             "effects": {
                 "AP": 10.0,
                 "CritChance": 20.0,
-                "{c34a89ec}": 15.0,
-                "{d49caf5d}": 15.0
+                "BonusCritChance": 15.0,
+                "BonusAP": 15.0
             },
             "from": [
                 3,
@@ -4701,16 +3147,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT_Item_DebugUnitID",
-            "desc": null,
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Augments/TFT6_Augment_ExperimentalEmblem.dds",
-            "id": 411415,
-            "name": null,
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_Unknown",
             "desc": "It must do <i>something</i>...",
             "effects": {},
@@ -4721,21 +3157,11 @@
             "unique": false
         },
         {
-            "apiName": "TFT_Item_JammedSlot",
-            "desc": "Item temporarily disabled",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Jammed.dds",
-            "id": 10002,
-            "name": "Jammed!",
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_ThiefsGloves_Empty",
             "desc": "tft_item_description_FracturedMirrorEmptySlot",
             "effects": {
                 "CritChance": 20.0,
-                "{c4b5579c}": 20.0
+                "DodgeChance": 20.0
             },
             "from": [],
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Placeholders/TFT_Item_EmptySlot.dds",
@@ -4766,80 +3192,10 @@
             "unique": false
         },
         {
-            "apiName": "TFT7_Consumable_Dragonmancer_DragonBlessing",
-            "desc": "Use on a Dragonmancer to make them your Dragonmancer Hero.<br><br><tftitemrules>[Cannot be used during combat.]</tftitemrules>",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Set7_Dragonmancer/TFT7_Consumable_Dragonmancer_DragonBlessing.TFT_Set7.dds",
-            "id": 2432,
-            "name": "Dragon Blessing",
-            "unique": false
-        },
-        {
-            "apiName": "TFT4_Item_OrnnRanduinsSanctum",
-            "desc": "Combat start: Grant %i:scaleArmor% @BonusDefense@ Armor and %i:scaleMR% @BonusDefense@ Magic Resistance to the holder and their adjacent allies.<br><br><tftitemrules>[Aura item]</tftitemrules>",
-            "effects": {
-                "Armor": "null",
-                "BonusDefense": 40.0,
-                "Health": 150.0,
-                "MagicResist": "null"
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Tank_T3_RanduinsOmen.dds",
-            "id": 9007,
-            "name": "Randuin's Sanctum",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_FreeVengeance",
-            "desc": "tft_item_description_SwordOfTheDivine2",
-            "effects": {
-                "AS": 15.0,
-                "AttackSpeedPerStack": 30.0,
-                "CritChance": 20.0,
-                "{cb57edb0}": 30.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RepeatingCrossbow.dds",
-            "id": 10005,
-            "name": "tft_item_name_SwordOfTheDivine2",
-            "unique": true
-        },
-        {
-            "apiName": "TFT7_Item_ShimmerscaleEmblemItem",
-            "desc": "The holder gains the Shimmerscale trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "AD": 10.0
-            },
-            "from": [
-                8,
-                1
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Shimmerscale.TFT_Set7.dds",
-            "id": 2302,
-            "name": "Shimmerscale Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT_Item_Vengeance",
-            "desc": "tft_item_description_SwordOfTheDivine2",
-            "effects": {
-                "AS": 15.0,
-                "AttackSpeedPerStack": 30.0,
-                "CritChance": 20.0,
-                "{cb57edb0}": 30.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_RepeatingCrossbow.dds",
-            "id": -29,
-            "name": "tft_item_name_SwordOfTheDivine2",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_ForceOfNature",
             "desc": "Your team gains +@MaxArmySizeIncrease@ maximum team size.",
             "effects": {
-                "{ec9a04d1}": 1.0
+                "MaxArmySizeIncrease": 1.0
             },
             "from": [
                 8,
@@ -4851,28 +3207,13 @@
             "unique": false
         },
         {
-            "apiName": "TFT6_Item_AcademyEmblemItem",
-            "desc": "The holder gains the Academy trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "Mana": 15.0
-            },
-            "from": [
-                8,
-                4
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Academy.dds",
-            "id": 48,
-            "name": "Academy Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_Quicksilver",
             "desc": "Grant %i:scaleAS% @BonusAS@% bonus Attack Speed.<br><br>Combat start: Grant immunity to crowd control for @SpellShieldDuration@ seconds.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
             "effects": {
                 "BonusAS": 30.0,
                 "CritChance": 20.0,
                 "MagicResist": 20.0,
-                "{a2b76524}": 15.0
+                "SpellShieldDuration": 15.0
             },
             "from": [
                 9,
@@ -4906,9 +3247,8 @@
                 "MagicResist": 20.0,
                 "Mana": 15.0,
                 "ManaRestore": 10.0,
-                "{8f0882cf}": 25.0,
-                "{9b1e8f37}": 1.0,
-                "{9fd37c1c}": 20.0
+                "ChaliceAP": 25.0,
+                "HexRange": 1.0
             },
             "from": [
                 6,
@@ -4918,18 +3258,6 @@
             "id": 46,
             "name": "Chalice of Power",
             "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_RagewingEmblemItem",
-            "desc": "The holder gains the Ragewing trait.<br><br><tftitemrules>[Unique - only 1 per champion</tftitemrules>",
-            "effects": {
-                "AS": 10.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Ragewing.TFT_Set7.dds",
-            "id": 2315,
-            "name": "Ragewing Emblem",
-            "unique": true
         },
         {
             "apiName": "TFT_Item_WarmogsArmor",
@@ -4948,59 +3276,16 @@
             "unique": false
         },
         {
-            "apiName": "TFT7_Item_Trainer_Lulu",
-            "desc": "tft_item_description_TFT7_Item_Trainer_Lulu_Armor",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Set7_Trainer/TFT7_DragonItems_HP.TFT_Set7.dds",
-            "id": 41100,
-            "name": "tft_item_name_TFT7_Item_Trainer_Lulu_Armor",
-            "unique": false
-        },
-        {
-            "apiName": "TFT6_Item_HextechEmblemItem",
-            "desc": "The holder gains the Hextech trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "Mana": 15.0
-            },
-            "from": [
-                8,
-                4
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Hextech.dds",
-            "id": 72,
-            "name": "Hextech Emblem",
-            "unique": true
-        },
-        {
-            "apiName": "TFT6_Item_ChemtechEmblemItem",
-            "desc": "The holder gains the Chemtech trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "Health": 150.0
-            },
-            "from": [
-                7,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set6/Chemtech.dds",
-            "id": 78,
-            "name": "Chemtech Emblem",
-            "unique": true
-        },
-        {
             "apiName": "TFT_Item_StatikkShiv",
             "desc": "Grants %i:scaleAP% @BonusAP@ bonus Ability Power. Every 3rd attack unleashes chain lightning that bounces to @1StarBounces@ enemies, dealing @Damage@ magic damage and @MRShred@% <TFTKeyword>Shredding</TFTKeyword> them for @MRShredDuration@ seconds.<br><br><tftitemrules>[Direct damage item]<br><tftbold>Shred</tftbold>: reduce Magic Resist</tftitemrules>",
             "effects": {
                 "AS": 10.0,
                 "Damage": 30.0,
                 "Mana": 15.0,
-                "{12a15e9e}": 4.0,
-                "{15144cec}": 4.0,
-                "{440f813d}": 4.0,
-                "{79e2ec7b}": 4.0,
-                "{b223097c}": 5.0,
-                "{d49caf5d}": 15.0,
-                "{fe079f34}": 50.0
+                "1StarBounces": 4.0,
+                "MRShredDuration": 5.0,
+                "BonusAP": 15.0,
+                "MRShred": 50.0
             },
             "from": [
                 2,
@@ -5012,37 +3297,12 @@
             "unique": false
         },
         {
-            "apiName": "TFT4_Item_OrnnTheCollector",
-            "desc": "Attacks and Abilities execute enemies below @ExecutePercent@% of their maximum Health. Executions have a @GoldChance@% chance to drop %i:goldCoins% 1 gold.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "AD": 0.30000001192092896,
-                "CritChance": 30.0,
-                "{2dd33743}": 40.0,
-                "{430f8969}": 12.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Ornn_Items/TFT4_OrnnItem_Marksman_T3_TheCollector.dds",
-            "id": 9009,
-            "name": "Gold Collector",
-            "unique": true
-        },
-        {
-            "apiName": "TFT_Item_UnusableSlot",
-            "desc": "This slot can't hold an item.",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Placeholders/TFT_Item_UnusableSlot.dds",
-            "id": 999,
-            "name": "Unusable Slot",
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_HextechGunblade",
             "desc": "Grant @OmniVamp@% <TFTKeyword>Omnivamp</TFTKeyword>, which also heals the lowest percent Health ally.<br><br><tftitemrules><tftbold>Omnivamp</tftbold>: heal for some of damage dealt</tftitemrules>",
             "effects": {
                 "AD": 0.10000000149011612,
                 "AP": 10.0,
-                "{ad16f688}": 25.0
+                "Omnivamp": 25.0
             },
             "from": [
                 1,
@@ -5052,33 +3312,6 @@
             "id": 13,
             "name": "Hextech Gunblade",
             "unique": false
-        },
-        {
-            "apiName": "TFT_Item_Hex_Mountain",
-            "desc": "tft_item_description_MountainHexBuff",
-            "effects": {
-                "{1bb18b94}": 30.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Hex_Mountain.dds",
-            "id": 10202,
-            "name": "tft_item_name_MountainHexBuff",
-            "unique": false
-        },
-        {
-            "apiName": "TFT7_Item_MirageEmblemItem",
-            "desc": "The holder gains the Mirage trait.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "MagicResist": 20.0
-            },
-            "from": [
-                6,
-                8
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Traits/Spatula/Set7/Mirage.TFT_Set7.dds",
-            "id": 2314,
-            "name": "Mirage Emblem",
-            "unique": true
         }
     ]
 }
