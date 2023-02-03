@@ -3,6 +3,7 @@ const {Champ, Trait, Item, Augment}= require('../models/index');
 const { Schema }= require('mongoose');
 const db= require("../config/db");
 
+
 const ctA= JSON.parse(fs.readFileSync('./champ_traitRaw.json', 'utf-8'));
 const iaA= JSON.parse(fs.readFileSync('./item_augRaw.json', 'utf-8'));
 const champA= ctA.champions;
@@ -22,8 +23,9 @@ const augA= iaA.augments.map((el)=>{
     }
     return el;
 });
+const baseurl= 'https://raw.communitydragon.org/latest/game/';
 
-const clean= async (arr, model, baseurl, endurl, champName)=>{
+const clean= async (arr, model)=>{
     const cleanArr= await arr.map(async (el, index, arr)=>{
         let newObj= {};
         for(const key in model){
@@ -38,10 +40,7 @@ const clean= async (arr, model, baseurl, endurl, champName)=>{
         //check if models field is an array of subdocs, and recurse with raw array and subdoc model
             else if(model[key] instanceof Array && model[key][0] instanceof Schema){
                 //im so sorry to whoever tries to parse this code
-                if(key=='ability') newObj[key]= await clean(el[key], model[key][0].obj, 'https://cdn.tft.tools/ability/tft8_', '.jpg?w=32&q=80&auto=format', arr[index].name)
-                .then(arr=> Promise.all(arr));
-
-                else newObj[key]= await clean(el[key], model[key][0].obj)
+                newObj[key]= await clean(el[key], model[key][0].obj)
                 .then(arr=> Promise.all(arr));
             } 
         //check if models field is a regular array
@@ -58,7 +57,6 @@ const clean= async (arr, model, baseurl, endurl, champName)=>{
                 } 
                 //for primitive types
                 else{
-                    console.log(key)
                     newObj[key]= el[key];
                 }
             }  
@@ -66,7 +64,7 @@ const clean= async (arr, model, baseurl, endurl, champName)=>{
             else if(key=="variables" || key=="pngUrl"){
                 if(key=="pngUrl"){
                     //dynamically constructs and sets url key
-                    newObj[key]= `${baseurl}${arr[index].name}${endurl}`;
+                    newObj[key]= `${baseurl}${format(arr[index].icon)}`;
                 } else{
                     ///for the one key that i have as a map
                     newObj[key]= new Map();
@@ -77,7 +75,6 @@ const clean= async (arr, model, baseurl, endurl, champName)=>{
             }
         //default
             else{
-                console.log(key)
                 newObj[key]= el[key]
             }      
         }
@@ -94,36 +91,40 @@ const getModel= (str) =>{
     }
 }
 
+const format= (str) =>{
+    return str.toLowerCase().replace(str.includes('.dds') ? '.dds' : '.tex', '.png');
+}
+
 
 
 (db.once('open', async ()=>{
     //adding model serialization to stack and then resolving promises before seeding
     console.log('\n\n______Seeding Traits_______');
-    await clean(traitA, Trait.schema.obj, 'https://raw.communitydragon.org/latest/game/assets/ux/traiticons/trait_icon_8_', 'png')
+    await clean(traitA, Trait.schema.obj)
     .then(async (arr)=>{
         const newarr= await Promise.all(arr);
         await Trait.create(newarr);
     });
 
     console.log('\n\n______Seeding Champs_______');
-    await clean(champA, Champ.schema.obj, 'https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_', '_square.tft_set8.png')
-    .then(async (arr)=>{
-        const newarr= await Promise.all(arr);
-        await Champ.create(newarr);
-    });
-
-    console.log('\n\n______Seeding Items_______');
-    await clean(champA, Champ.schema.obj, 'https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_', '_square.tft_set8.png')
+    await clean(champA, Champ.schema.obj)
     .then(async (arr)=>{
         const newarr= await Promise.all(arr);
         await Champ.create(newarr);
     });
 
     console.log('\n\n______Seeding Augments_______');
-    await clean(champA, Champ.schema.obj, 'https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_', '_square.tft_set8.png')
+    await clean(augA, Augment.schema.obj)
     .then(async (arr)=>{
         const newarr= await Promise.all(arr);
-        await Champ.create(newarr);
+        await Augment.create(newarr);
+    });
+
+    console.log('\n\n______Seeding Items_______');
+    await clean(itemA, Item.schema.obj)
+    .then(async (arr)=>{
+        const newarr= await Promise.all(arr);
+        await Item.create(newarr);
     });
 
     process.exit(0);

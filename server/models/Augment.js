@@ -8,6 +8,7 @@ const augSc= new Schema(
         desc:{
             type: String
         },
+        effects: Map,
         type:{
             type: String
         },

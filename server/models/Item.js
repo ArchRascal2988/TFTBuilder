@@ -5,10 +5,7 @@ const itemSc= new Schema({
         type: String
     },
     effects: Map,
-    from:[{
-        type: Schema.Types.ObjectId,
-        ref: 'Item'
-    }],
+    from:[Number],
     type:{
         type: String
     },

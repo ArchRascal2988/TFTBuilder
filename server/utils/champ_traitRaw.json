@@ -3618,7 +3618,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Civilian.tex",
             "name": "Civilian",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Admin",
@@ -3651,7 +3651,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_ADMIN.tex",
             "name": "A.D.M.I.N.",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_AnimaSquad",
@@ -3690,7 +3690,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_AnimaSquad.tex",
             "name": "Anima Squad",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_SpaceCorps",
@@ -3729,7 +3729,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Lasercorps.tex",
             "name": "LaserCorps",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Brawler",
@@ -3770,7 +3770,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_3_Brawler.tex",
             "name": "Brawler",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_ExoPrime",
@@ -3799,7 +3799,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_MechaPrime.tex",
             "name": "Mecha:PRIME",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Threat",
@@ -3814,7 +3814,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Threat.tex",
             "name": "Threat",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Mascot",
@@ -3863,7 +3863,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Mascot.tex",
             "name": "Mascot",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Forecaster",
@@ -3878,7 +3878,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Forecaster.tex",
             "name": "Forecaster",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Ace",
@@ -3903,7 +3903,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Ace.tex",
             "name": "Ace",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Duelist",
@@ -3948,7 +3948,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_4_Duelist.tex",
             "name": "Duelist",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_OxForce",
@@ -3997,7 +3997,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_OxForce.tex",
             "name": "Ox Force",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Arsenal",
@@ -4012,7 +4012,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Arsenal.tex",
             "name": "Arsenal",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Aegis",
@@ -4057,7 +4057,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Aegis.tex",
             "name": "Aegis",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_UndergroundThe",
@@ -4084,7 +4084,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Underground.tex",
             "name": "Underground",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_StarGuardian",
@@ -4125,7 +4125,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_3_StarGuardian.tex",
             "name": "Star Guardian",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Prankster",
@@ -4154,7 +4154,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Prankster.tex",
             "name": "Prankster",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Heart",
@@ -4187,7 +4187,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Heart.tex",
             "name": "Heart",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Corrupted",
@@ -4205,7 +4205,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Corrupted.tex",
             "name": "Corrupted",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Supers",
@@ -4223,7 +4223,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Supers.tex",
             "name": "Supers",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Renegade",
@@ -4250,7 +4250,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Renegade.tex",
             "name": "Renegade",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Channeler",
@@ -4299,7 +4299,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Spellslinger.tex",
             "name": "Spellslinger",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Recon",
@@ -4335,7 +4335,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Recon.tex",
             "name": "Recon",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Deadeye",
@@ -4362,7 +4362,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Sureshot.tex",
             "name": "Sureshot",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_Defender",
@@ -4398,7 +4398,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Defender.tex",
             "name": "Defender",
-            "type:": "Class"
+            "type": "Class"
         },
         {
             "apiName": "Set8_GenAE",
@@ -4423,7 +4423,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Gadgeteens.tex",
             "name": "Gadgeteen",
-            "type:": "Origin"
+            "type": "Origin"
         },
         {
             "apiName": "Set8_Hacker",
@@ -4456,7 +4456,7 @@
             ],
             "icon": "ASSETS/UX/TraitIcons/Trait_Icon_8_Hacker.tex",
             "name": "Hacker",
-            "type:": "Class"
+            "type": "Class"
         }
     ]
 }
