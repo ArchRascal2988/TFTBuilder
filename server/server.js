@@ -25,7 +25,6 @@ app.get('/', (req,res)=>{
 //     server.applyMiddleware({app});
   
     db.once('open', () => {
-      console.log(db.db);
       app.listen(PORT, () => {
         console.log(`Now listening on localhost:${PORT}`);
         // console.log(`GraphQL GUI: http://localhost:${PORT}${server.graphqlPath}`);
