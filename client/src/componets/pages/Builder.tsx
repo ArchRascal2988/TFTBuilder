@@ -8,7 +8,9 @@ const Builder= ()=>{
     const cHexes:Object[] = [];
     useEffect(()=>{
         for(let i:number=0; i<4; i++){
+            console.log("hi", i);
             for(let j:number=0; j<7; j++){
+                console.log('hi', j)
                 bHexes[i].push({
                     r: i+1,
                     c: j+1,
