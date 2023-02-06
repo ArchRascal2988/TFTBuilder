@@ -1,5 +1,6 @@
+import '../styling/board.scss';
+
 const Hex= ({boardInfo, champInfo}: {boardInfo:Object, champInfo:Object})=>{
-    console.log(boardInfo);
     if(!champInfo){
         return(
             <div className="hexdiv-empty" data-row={boardInfo} data-collumn={boardInfo} data-champ={champInfo}></div>
