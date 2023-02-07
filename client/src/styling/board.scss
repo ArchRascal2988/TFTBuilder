@@ -1,16 +1,27 @@
-.hexdiv-empty, .hexdiv-occ{
+.hexdiv{
     width: 7rem;
     height: 7.5rem;
-    background-image: url("https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_sylas.tft_set8.png");
-    transform: translate();
-    margin: .25rem .5rem .25rem .5rem;
+
+    &:before{
+        position: relative;
+        left: 50px;
+        background-color: white;
+        transform: rotate(45deg);
+    }
+
+    &:after{
+        position: relative;
+        right: 50px;
+        background-color: white;
+        transform: rotate(45deg);
+    }
 }
 
 .hexdiv-empty{
     background-image: linear-gradient(25deg, rgba(56, 120, 178), rgb(130, 207, 194), rgba(234, 59, 185, 0.31));
 }
 .hexdiv-occ{
-
+    background-image: url("https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_sylas.tft_set8.png");
 }
 
 #hexboard{

@@ -4,14 +4,14 @@ import Hex from "../Hex";
 import Board from "../Board";
 
 const Builder= ()=>{
-    const bHexes:Object[][] = [[],[],[],[]];
-    const cHexes:Object[] = [];
+    const bHexes:{r:number, c:number, champ:string}[][] = [[],[],[],[]];
+    const cHexes:{url:string, name:string, cost:number, traits:string[], starLvl:string, isPrime:boolean, ability:any, currItems:any[]}[] = [];
         for(let i:number=0; i<4; i++){
             for(let j:number=0; j<7; j++){
                 bHexes[i].push({
                     r: i+1,
                     c: j+1,
-                    champ:{}
+                    champ:""
                 });
             }
         }
