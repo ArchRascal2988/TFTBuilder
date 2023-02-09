@@ -3,8 +3,15 @@ import { useState, useEffect } from 'react';
 import Hex from "../Hex";
 import Board from "../Board";
 
+type BInfo= {
+    r:number,
+    c:number, 
+    champ:string
+}
+
+
 const Builder= ()=>{
-    const bHexes:{r:number, c:number, champ:string}[][] = [[],[],[],[]];
+    const bHexes:BInfo[][] = [[],[],[],[]];
     const cHexes:{url:string, name:string, cost:number, traits:string[], starLvl:string, isPrime:boolean, ability:any, currItems:any[]}[] = [];
         for(let i:number=0; i<4; i++){
             for(let j:number=0; j<7; j++){

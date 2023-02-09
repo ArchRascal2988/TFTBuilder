@@ -1,6 +1,12 @@
 const { Schema, model }= require('mongoose');
 
 const cellSc= new Schema({
+    row:{
+        type: Number
+    },
+    column:{
+        type: Number
+    },
     currentChamp:{
         type: Schema.Types.ObjectId,
         ref: 'Champ',
@@ -18,7 +24,11 @@ const boardSc= new Schema(
         augments:[{
             type: Schema.Types.ObjectId,
             ref: 'Augment'
-        }]
+        }],
+        traits: Map,
+        notes:{
+            type: String
+        }
     }
 );
 

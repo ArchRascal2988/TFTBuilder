@@ -1,9 +1,9 @@
 import '../styling/board.scss';
 
-const Hex= ({boardInfo, champInfo}: {boardInfo:Object, champInfo:Object})=>{
+const Hex= ({boardInfo, champInfo}: {boardInfo:any, champInfo:any})=>{
     if(!champInfo){
         return(
-            <div className="hexdiv-empty" data-row={boardInfo} data-collumn={boardInfo} data-champ={champInfo}></div>
+            <div className="hexdiv-empty" data-row={boardInfo} data-collumn={boardInfo}></div>
         )
     } else{
         return(

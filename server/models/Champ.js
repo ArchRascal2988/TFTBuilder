@@ -1,12 +1,5 @@
 const { Schema, model }= require('mongoose');
 
-const varSc= new Schema({
-    name:{
-        type: String
-    },
-    value:[Number]
-});
-
 const abilitySc= new Schema({
     name:{
         type: String
@@ -15,7 +8,7 @@ const abilitySc= new Schema({
         type: String
     },
     cost:[Number],
-    variables:[varSc],
+    variables: Map,
     pngUrl: {
         type: String
     }
