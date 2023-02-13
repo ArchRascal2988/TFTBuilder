@@ -111,7 +111,7 @@ export class Cell{
     }
 }
 
-export class Board{
+export class GameBoard{
     matrix: Cell[][];
     augments: Augment[];
     notes: String;
