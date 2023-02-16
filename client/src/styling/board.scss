@@ -1,9 +1,10 @@
+#main{
+    min-width: 100%;
+    min-height: 100%;
+}
+
 .hexdiv-empty, .hexdiv-occ{
-    width: 8.5rem;
-    height: 7.5rem;
-    margin: 5px;
-    background-repeat: no-repeat;
-    background-size: 40%;
+    background-size: 100%;
     background-clip: border-box;
 }
 
