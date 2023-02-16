@@ -83,14 +83,14 @@ export class Champ{
         this.isPrime= false;
     }
 
-    equip(item:Item, sw:boolean){
+    equip(item:Item, sw:boolean): any{
         if(sw) this.currItems.push(item);
         else{
-            this.currItems.filter((el)=> el.name!=item.name)
+            this.currItems.filter((el)=> el.name!==item.name)
         }
     }
 
-    setStatus(input:boolean | string){
+    setStatus(input:boolean | string): any{
         typeof input=="string" ? this.starLvl=input : this.isPrime=input;
     }
 }
@@ -122,7 +122,7 @@ export class GameBoard{
         this.augments= [];
         this.traits= null;
         
-        let base= new Array(4).fill(new Array(7));
+        let base= new Array(4).fill(new Array(7).fill({}));
         this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c, null)));
     }
 

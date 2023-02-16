@@ -1,7 +1,7 @@
 
 const Landing= ()=>{
     return(
-    <div>HAI</div>
+        <div className="mask-hexagon-2 hexdiv-empty "></div>
     );
 }
 

@@ -9,10 +9,7 @@ const Builder= ()=>{
     const boardState= useContext<GameBoard>(BoardContext);
 
     return(
-        <BoardContext.Provider value={new GameBoard()}>
-            <Board board={boardState}></Board>
-        </BoardContext.Provider>
-        
+        <Board board={boardState}></Board>
     );
 }
 
