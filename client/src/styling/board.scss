@@ -4,6 +4,9 @@
 }
 
 .hexdiv-empty, .hexdiv-occ{
+    width: 6rem;
+    height: 7rem;
+    margin: 0 .1rem;
     background-size: 100%;
     background-clip: border-box;
 }
@@ -14,17 +17,24 @@
 }
 .hexdiv-occ{
     background-image: url("https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_sylas.tft_set8.png");
+    background-size: 250%;
+    background-position: top 110px left 90px;
 }
 
 #hexboard{
+    width: 52rem;
+    height: 28rem;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     flex-flow: column nowrap;
+    align-self: center;
+    justify-self: center;
 }
 
 .row{
     display: flex;
     align-items: center;
     flex-flow: row wrap;
+    margin: 0;
 }  

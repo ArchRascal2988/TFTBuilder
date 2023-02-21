@@ -1,8 +1,10 @@
-
 const Landing= ()=>{
+
     return(
-        <div className="mask-hexagon-2 hexdiv-empty "></div>
-    );
-}
+        <div>
+            hewwooo
+        </div>
+    )
+};
 
 export default Landing;

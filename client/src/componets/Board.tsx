@@ -9,7 +9,7 @@ const Board= ({board}:any)=>{
     return(
     <section id='hexboard'>
         {board.matrix.map((el:Cell[], index:number)=> {
-            return <div className="row">
+            return <div key={index} className="row">
                 {el.map((el:Cell, index:number)=> 
                     <Hex key={index} row={el.row} 
                     column={el.column} champ={el.champ} 

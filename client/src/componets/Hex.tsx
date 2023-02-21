@@ -26,7 +26,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
                 e.preventDefault();
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
-            }} className="hexdiv-empty mask-hexagon" 
+            }} className="mask hexdiv-empty mask-hexagon" 
             data-row={row} data-collumn={column}></div>
         )
     } else{
@@ -39,8 +39,8 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
                 e.preventDefault();
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
-            }} className="hexdiv-occ mask-hexagon" 
-            data-row={row} data-collumn={column} data-champ={champ}></div>
+            }} className="mask hexdiv-occ mask-hexagon" 
+            data-row={row} data-collumn={column} data-champid={champ}></div>
         )
     }    
 }
