@@ -38,8 +38,8 @@ const champSc= new Schema(
         }],
         starLvl:{
             type: String,
-            default: null,
-            enum: ["1 Star", "2 Star", "3 Star", null]
+            default: "1 Star",
+            enum: ["1 Star", "2 Star", "3 Star"]
         }, 
         isPrime:{
             type: Boolean,

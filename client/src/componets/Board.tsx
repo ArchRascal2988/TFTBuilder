@@ -1,10 +1,14 @@
-import Hex from "./Hex";
-
-import '../styling/board.scss';
+import { useContext } from "react";
+import { BoardContext } from '../utils/state/boardContext';
 import { GameBoard, Cell } from "../utils/state/stateclasses";
 
-const Board= ({board}:any)=>{
+import Hex from "./Hex";
 
+
+import '../styling/board.scss';
+
+const Board= ()=>{
+    const board= useContext<GameBoard>(BoardContext);
 
     return(
     <section id='hexboard'>

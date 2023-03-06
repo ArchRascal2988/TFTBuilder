@@ -1,5 +1,15 @@
 import { ESMap } from 'typescript';
 
+/*
+Idea is with this approach is that 
+with the defined classes we can directly feed the clas methods
+into resolvers as action arg, eliminating the need to check for
+action.type selection
+
+Types are for typing :3
+*/ 
+
+
 export type ability={
     name: string,
     desc: string,
