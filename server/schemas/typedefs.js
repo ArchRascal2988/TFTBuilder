@@ -1,12 +1,13 @@
 const { gql }= require("apollo-server-express");
 
-export const typeDefs= gql`
+const typeDefs= gql`
 scalar Map
-enum Stars{
-    1 Star
-    2 Star
-    3 Star
+enum NumStars {
+    ONE
+    TWO
+    THREE
 }
+
 type abilityT{
     name: String
     desc: String
@@ -25,18 +26,18 @@ type cellT{
 }
 
 type Champ{
-    _id: ID
+    _id: ID!
     name: String
     cost: Int
     traits: [ID]
     ability: abilityT
-    starLvl: Stars
+    starLvl: NumStars
     isPrime: Boolean
     pngUrl: String
 }
 
 type Item{
-    _id: ID
+    _id: ID!
     name: String
     effects: Map
     from: [Int]
@@ -45,7 +46,7 @@ type Item{
 }
 
 type Trait{
-    _id: ID
+    _id: ID!
     name: String
     desc: String
     type: String
@@ -54,7 +55,7 @@ type Trait{
 }
 
 type Augment{
-    _id: ID
+    _id: ID!
     name: String
     desc: String
     effects: Map
@@ -63,7 +64,7 @@ type Augment{
 }
 
 type Board{
-    _id: ID
+    _id: ID!
     matrix: [[cellT]]
     augments: [ID]
     traits: Map
@@ -71,9 +72,18 @@ type Board{
 }
 
 type User{
-    _id: ID
-    username: !String
-    password: !String
+    _id: ID!
+    username: String!
+    password: String!
     boards: [ID]
 }
-`
+
+type Query{
+    allChamps: [Champ]
+}
+
+type Mutation{
+    signup(usern: String!, pass: String!): User
+}
+`;
+module.exports= typeDefs

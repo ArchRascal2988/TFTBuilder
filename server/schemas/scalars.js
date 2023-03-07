@@ -1,4 +1,4 @@
-import { GraphQLScalarType, Kind } from "graphql";
+const { GraphQLScalarType, Kind } = require("graphql");
 
 //using maps a lot for ease of accessing data on front end (effect and ability descs are constructed using this)
 const mapScalar = new GraphQLScalarType({

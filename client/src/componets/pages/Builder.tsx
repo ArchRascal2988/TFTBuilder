@@ -3,7 +3,10 @@ import Board from "../Board";
 const Builder= ()=>{
 
     return(
-        <Board></Board>
+        <div>
+            
+            <Board></Board>
+        </div>
     );
 }
 
