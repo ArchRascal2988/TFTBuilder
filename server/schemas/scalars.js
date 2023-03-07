@@ -20,7 +20,7 @@ const mapScalar = new GraphQLScalarType({
     },
     parseLiteral(ast){
         if (ast.kind=== Kind.STRING && ast instanceof Array=== false){
-            let [key, value]= ast.split(':');
+            let [key, value]= ast.trim().split(':');
             let map= new Map();
             map.set(key, value);
 
@@ -28,7 +28,8 @@ const mapScalar = new GraphQLScalarType({
         } else if(ast instanceof Array === false){
             let map= new Map();
 
-            for (const [key, value] of ast){
+            for (const el of ast){
+                let [key, value]= ast.trim().split(':');
                 map.set(key, value);
             }
             return map;
