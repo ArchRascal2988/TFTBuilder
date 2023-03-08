@@ -3,6 +3,10 @@
     min-height: 100%;
 }
 
+.avatar{
+    object-fit: contain;
+}
+
 .hexdiv-empty, .hexdiv-occ{
     width: 6rem;
     height: 7rem;

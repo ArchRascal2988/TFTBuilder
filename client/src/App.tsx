@@ -12,9 +12,9 @@ import Account from './componets/pages/Account';
 import { BoardContext } from './utils/state/boardContext';
 import { GameBoard } from './utils/state/stateclasses';
 
-// const endpoint= createHttpLink({
-//   uri: '/graphql',
-// });
+const endpoint= createHttpLink({
+  uri: '/graphql',
+});
 
 // const setHeader= setContext((_, {headers}) => {
 //     const token= Auth.getToken();
@@ -27,14 +27,14 @@ import { GameBoard } from './utils/state/stateclasses';
 //     };
 // });
 
-// const client= new ApolloClient({
-//   link: setHeader.concat(endpoint),
-//   cache: new InMemoryCache()
-// });
+const client= new ApolloClient({
+  link: endpoint,
+  cache: new InMemoryCache()
+});
 
 function App() {
   return (
-   // <ApolloProvider client={client}>
+   <ApolloProvider client={client}>
         <Router>
           <Routes>
             <Route path='/' element={<Landing/>}></Route>
@@ -44,7 +44,7 @@ function App() {
             <Route path='/account' element={<Account/>}></Route>
           </Routes>
         </Router>
-   // </ApolloProvider>
+   </ApolloProvider>
 
   );
 }
