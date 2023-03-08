@@ -18,7 +18,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
 
     if(!champ){
         return(
-            <div onDrop={(e)=>{
+            <div  draggable onDrop={(e)=>{
                 e.preventDefault();
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
@@ -27,11 +27,11 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
             }} className="mask hexdiv-empty mask-hexagon" 
-            data-row={row} data-collumn={column}></div>
+            data-row={row} data-collumn={column} data-src=""></div>
         )
     } else{
         return(
-            <div onDrop={(e)=>{
+            <div draggable onDrop={(e)=>{
                 e.preventDefault();
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
@@ -40,7 +40,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
             }} className="mask hexdiv-occ mask-hexagon" 
-            data-row={row} data-collumn={column} data-champid={champ}></div>
+            data-row={row} data-collumn={column} data-src={champ.aviURL}></div>
         )
     }    
 }

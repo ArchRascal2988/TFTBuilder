@@ -4,9 +4,6 @@ import { GameBoard, Cell } from "../utils/state/stateclasses";
 
 import Hex from "./Hex";
 
-
-import '../styling/board.scss';
-
 const Board= ()=>{
     const board= useContext<GameBoard>(BoardContext);
 
@@ -25,7 +22,5 @@ const Board= ()=>{
     );
 }
 
-{/* el.map((el:Cell, index:number)=> 
-        <Hex key={index} row={el.row} column={el.column} champ={el.champ} occupy={el.occupy}></Hex>)) */}
 
 export default Board;

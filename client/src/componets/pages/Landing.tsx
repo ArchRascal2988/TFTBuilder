@@ -1,3 +1,5 @@
+
+//self explanatory
 const Landing= ()=>{
 
     return(

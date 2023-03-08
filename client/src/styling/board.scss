@@ -4,6 +4,8 @@
 }
 
 .avatar{
+    width: 5rem;
+    height: 5rem;
     object-fit: contain;
 }
 
@@ -21,8 +23,6 @@
 }
 .hexdiv-occ{
     background-image: url("https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/tft8_sylas.tft_set8.png");
-    background-size: 250%;
-    background-position: top 110px left 90px;
 }
 
 #hexboard{

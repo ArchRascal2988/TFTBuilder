@@ -1,2 +1,31 @@
+.flex-even{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
 
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+}
   
+.shift-left{
+    align-self: flex-start;
+}
+
+.shift-right{
+    align-self: flex-end;
+}
+
+.container-def{
+    background-color: rgb(56, 120, 178, 0.1);
+    margin: 5rem
+}
+
+.container-titled{
+    background-color: rgb(56, 120, 178, 0.1);
+    margin: 5rem
+}

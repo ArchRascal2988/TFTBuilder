@@ -10,7 +10,8 @@ import SignIn from './componets/pages/SignIn';
 import Account from './componets/pages/Account';
 
 import { BoardContext } from './utils/state/boardContext';
-import { GameBoard } from './utils/state/stateclasses';
+
+import './styling/style.scss';
 
 const endpoint= createHttpLink({
   uri: '/graphql',
