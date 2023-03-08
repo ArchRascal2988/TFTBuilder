@@ -29,7 +29,7 @@ type Champ{
     _id: ID!
     name: String
     cost: Int
-    traits: [ID]
+    traits: [Trait]
     ability: abilityT
     starLvl: NumStars
     isPrime: Boolean
@@ -66,7 +66,7 @@ type Augment{
 type Board{
     _id: ID!
     matrix: [[cellT]]
-    augments: [ID]
+    augments: [Augment]
     traits: Map
     notes: String
 }
@@ -75,7 +75,7 @@ type User{
     _id: ID!
     username: String!
     password: String!
-    boards: [ID]
+    boards: [Board]
 }
 
 type Query{

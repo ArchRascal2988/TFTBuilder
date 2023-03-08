@@ -12,7 +12,7 @@ module.exports={
 
     Query:{
         allChamps: async ()=>{
-            return await Champ.find({});
+            return await Champ.find({}).populate('traits');
         }
     },
     Mutation:{

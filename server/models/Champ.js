@@ -31,11 +31,6 @@ const champSc= new Schema(
             ref: 'Trait'
         }], 
         ability: abilitySc,
-        currItems:[{
-            type: Schema.Types.ObjectId,
-            ref: 'Item',
-            default: null
-        }],
         starLvl:{
             type: String,
             default: "1 Star",

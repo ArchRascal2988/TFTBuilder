@@ -27,7 +27,7 @@
             },
             "apiName": "TFT8_Sylas",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sylas.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sylas_square.TFT_Set8.dds",
             "name": "Sylas",
             "stats": {
                 "armor": 45.0,
@@ -89,7 +89,7 @@
             },
             "apiName": "TFT8_Nasus",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Nasus.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Nasus_square.TFT_Set8.dds",
             "name": "Nasus",
             "stats": {
                 "armor": 40.0,
@@ -135,7 +135,7 @@
             },
             "apiName": "TFT8_Jinx",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Jinx.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Jinx_square.TFT_Set8.dds",
             "name": "Jinx",
             "stats": {
                 "armor": 20.0,
@@ -181,7 +181,7 @@
             },
             "apiName": "TFT8_Vayne",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Vayne.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Vayne_square.TFT_Set8.dds",
             "name": "Vayne",
             "stats": {
                 "armor": 25.0,
@@ -252,7 +252,7 @@
             },
             "apiName": "TFT8_Riven",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Riven.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Riven_square.TFT_Set8.dds",
             "name": "Riven",
             "stats": {
                 "armor": 45.0,
@@ -315,7 +315,7 @@
             },
             "apiName": "TFT8_MissFortune",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_MissFortune.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_MissFortune_square.TFT_Set8.dds",
             "name": "Miss Fortune",
             "stats": {
                 "armor": 30.0,
@@ -369,7 +369,7 @@
             },
             "apiName": "TFT8_Galio",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Galio.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Galio_square.TFT_Set8.dds",
             "name": "Galio",
             "stats": {
                 "armor": 45.0,
@@ -423,7 +423,7 @@
             },
             "apiName": "TFT8_Sivir",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sivir.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sivir_square.TFT_Set8.dds",
             "name": "Sivir",
             "stats": {
                 "armor": 20.0,
@@ -493,7 +493,7 @@
             },
             "apiName": "TFT8_Janna",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Janna.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Janna_square.TFT_Set8.dds",
             "name": "Janna",
             "stats": {
                 "armor": 35.0,
@@ -548,7 +548,7 @@
             },
             "apiName": "TFT8_Taliyah",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Taliyah.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Taliyah_square.TFT_Set8.dds",
             "name": "Taliyah",
             "stats": {
                 "armor": 30.0,
@@ -602,7 +602,7 @@
             },
             "apiName": "TFT8_Lux",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Lux.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Lux_square.TFT_Set8.dds",
             "name": "Lux",
             "stats": {
                 "armor": 15.0,
@@ -672,7 +672,7 @@
             },
             "apiName": "TFT8_Nilah",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Nilah.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Nilah_square.TFT_Set8.dds",
             "name": "Nilah",
             "stats": {
                 "armor": 50.0,
@@ -734,7 +734,7 @@
             },
             "apiName": "TFT8_Kaisa",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Kaisa.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Kaisa_square.TFT_Set8.dds",
             "name": "Kai'Sa",
             "stats": {
                 "armor": 25.0,
@@ -788,7 +788,7 @@
             },
             "apiName": "TFT8_Rell",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Rell.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Rell_square.TFT_Set8.dds",
             "name": "Rell",
             "stats": {
                 "armor": 50.0,
@@ -858,7 +858,7 @@
             },
             "apiName": "TFT8_Ekko",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Ekko.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Ekko_square.TFT_Set8.dds",
             "name": "Ekko",
             "stats": {
                 "armor": 60.0,
@@ -913,7 +913,7 @@
             },
             "apiName": "TFT8_Syndra",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Syndra.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Syndra_square.TFT_Set8.dds",
             "name": "Syndra",
             "stats": {
                 "armor": 40.0,
@@ -975,7 +975,7 @@
             },
             "apiName": "TFT8_Sett",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sett.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sett_square.TFT_Set8.dds",
             "name": "Sett",
             "stats": {
                 "armor": 60.0,
@@ -1029,7 +1029,7 @@
             },
             "apiName": "TFT8_Draven",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Draven.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Draven_square.TFT_Set8.dds",
             "name": "Draven",
             "stats": {
                 "armor": 20.0,
@@ -1075,7 +1075,7 @@
             },
             "apiName": "TFT8_Leona",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Leona.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Leona_square.TFT_Set8.dds",
             "name": "Leona",
             "stats": {
                 "armor": 60.0,
@@ -1130,7 +1130,7 @@
             },
             "apiName": "TFT8_Jax",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Jax.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Jax_square.TFT_Set8.dds",
             "name": "Jax",
             "stats": {
                 "armor": 45.0,
@@ -1192,7 +1192,7 @@
             },
             "apiName": "TFT8_Sejuani",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sejuani.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sejuani_square.TFT_Set8.dds",
             "name": "Sejuani",
             "stats": {
                 "armor": 60.0,
@@ -1246,7 +1246,7 @@
             },
             "apiName": "TFT8_Ashe",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Ashe.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Ashe_square.TFT_Set8.dds",
             "name": "Ashe",
             "stats": {
                 "armor": 15.0,
@@ -1292,7 +1292,7 @@
             },
             "apiName": "TFT8_Senna",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Senna.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Senna_square.TFT_Set8.dds",
             "name": "Senna",
             "stats": {
                 "armor": 25.0,
@@ -1386,7 +1386,7 @@
             },
             "apiName": "TFT8_Zed",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Zed.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Zed_square.TFT_Set8.dds",
             "name": "Zed",
             "stats": {
                 "armor": 45.0,
@@ -1441,7 +1441,7 @@
             },
             "apiName": "TFT8_Mordekaiser",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Mordekaiser.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Mordekaiser_square.TFT_Set8.dds",
             "name": "Mordekaiser",
             "stats": {
                 "armor": 70.0,
@@ -1495,7 +1495,7 @@
             },
             "apiName": "TFT8_Annie",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Annie.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Annie_square.TFT_Set8.dds",
             "name": "Annie",
             "stats": {
                 "armor": 40.0,
@@ -1558,7 +1558,7 @@
             },
             "apiName": "TFT8_Fiora",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Fiora.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Fiora_square.TFT_Set8.dds",
             "name": "Fiora",
             "stats": {
                 "armor": 45.0,
@@ -1620,7 +1620,7 @@
             },
             "apiName": "TFT8_Alistar",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Alistar.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Alistar_square.TFT_Set8.dds",
             "name": "Alistar",
             "stats": {
                 "armor": 50.0,
@@ -1667,7 +1667,7 @@
             },
             "apiName": "TFT8_Aphelios",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Aphelios.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Aphelios_square.TFT_Set8.dds",
             "name": "Aphelios",
             "stats": {
                 "armor": 30.0,
@@ -1722,7 +1722,7 @@
             },
             "apiName": "TFT8_Viego",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Viego.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Viego_square.TFT_Set8.dds",
             "name": "Viego",
             "stats": {
                 "armor": 50.0,
@@ -1776,7 +1776,7 @@
             },
             "apiName": "TFT8_Kayle",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Kayle.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Kayle_square.TFT_Set8.dds",
             "name": "Kayle",
             "stats": {
                 "armor": 15.0,
@@ -1846,7 +1846,7 @@
             },
             "apiName": "TFT8_Vi",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Vi.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Vi_square.TFT_Set8.dds",
             "name": "Vi",
             "stats": {
                 "armor": 45.0,
@@ -1917,7 +1917,7 @@
             },
             "apiName": "TFT8_Samira",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Samira.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Samira_square.TFT_Set8.dds",
             "name": "Samira",
             "stats": {
                 "armor": 30.0,
@@ -1988,7 +1988,7 @@
             },
             "apiName": "TFT8_Sona",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sona.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Sona_square.TFT_Set8.dds",
             "name": "Sona",
             "stats": {
                 "armor": 25.0,
@@ -2035,7 +2035,7 @@
             },
             "apiName": "TFT8_Lulu",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Lulu.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Lulu_square.TFT_Set8.dds",
             "name": "Lulu",
             "stats": {
                 "armor": 15.0,
@@ -2089,7 +2089,7 @@
             },
             "apiName": "TFT8_Zoe",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Zoe.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Zoe_square.TFT_Set8.dds",
             "name": "Zoe",
             "stats": {
                 "armor": 20.0,
@@ -2176,7 +2176,7 @@
             },
             "apiName": "TFT8_Nunu",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Nunu.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Nunu_square.TFT_Set8.dds",
             "name": "Nunu & Willump",
             "stats": {
                 "armor": 55.0,
@@ -2222,7 +2222,7 @@
             },
             "apiName": "TFT8_Blitzcrank",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Blitzcrank.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Blitzcrank_square.TFT_Set8.dds",
             "name": "Blitzcrank",
             "stats": {
                 "armor": 45.0,
@@ -2292,7 +2292,7 @@
             },
             "apiName": "TFT8_Camille",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Camille.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Camille_square.TFT_Set8.dds",
             "name": "Camille",
             "stats": {
                 "armor": 45.0,
@@ -2346,7 +2346,7 @@
             },
             "apiName": "TFT8_Gangplank",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Gangplank.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Gangplank_square.TFT_Set8.dds",
             "name": "Gangplank",
             "stats": {
                 "armor": 30.0,
@@ -2400,7 +2400,7 @@
             },
             "apiName": "TFT8_LeeSin",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_LeeSin.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_LeeSin_square.TFT_Set8.dds",
             "name": "Lee Sin",
             "stats": {
                 "armor": 45.0,
@@ -2455,7 +2455,7 @@
             },
             "apiName": "TFT8_Malphite",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Malphite.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Malphite_square.TFT_Set8.dds",
             "name": "Malphite",
             "stats": {
                 "armor": 45.0,
@@ -2509,7 +2509,7 @@
             },
             "apiName": "TFT8_Velkoz",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Velkoz.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Velkoz_square.TFT_Set8.dds",
             "name": "Vel'Koz",
             "stats": {
                 "armor": 30.0,
@@ -2570,7 +2570,7 @@
             },
             "apiName": "TFT8_Chogath",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Chogath.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Chogath_square.TFT_Set8.dds",
             "name": "Cho'Gath",
             "stats": {
                 "armor": 55.0,
@@ -2639,7 +2639,7 @@
             },
             "apiName": "TFT8_AurelionSol",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_AurelionSol.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_AurelionSol_square.TFT_Set8.dds",
             "name": "Aurelion Sol",
             "stats": {
                 "armor": 30.0,
@@ -2716,7 +2716,7 @@
             },
             "apiName": "TFT8_Rammus",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Rammus.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Rammus_square.TFT_Set8.dds",
             "name": "Rammus",
             "stats": {
                 "armor": 55.0,
@@ -2801,7 +2801,7 @@
             },
             "apiName": "TFT8_BelVeth",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_BelVeth.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_BelVeth_square.TFT_Set8.dds",
             "name": "Bel'Veth",
             "stats": {
                 "armor": 50.0,
@@ -2870,7 +2870,7 @@
             },
             "apiName": "TFT8_Zac",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Zac.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Zac_square.TFT_Set8.dds",
             "name": "Zac",
             "stats": {
                 "armor": 65.0,
@@ -2987,7 +2987,7 @@
             },
             "apiName": "TFT8_Urgot",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Urgot.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Urgot_square.TFT_Set8.dds",
             "name": "Urgot",
             "stats": {
                 "armor": 50.0,
@@ -3080,7 +3080,7 @@
             },
             "apiName": "TFT8_Fiddlesticks",
             "cost": 5,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Fiddlesticks.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Fiddlesticks_square.TFT_Set8.dds",
             "name": "Fiddlesticks",
             "stats": {
                 "armor": 70.0,
@@ -3118,7 +3118,7 @@
             },
             "apiName": "TFT8_Yuumi",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Yuumi.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Yuumi_square.TFT_Set8.dds",
             "name": "Yuumi",
             "stats": {
                 "armor": 20.0,
@@ -3165,7 +3165,7 @@
             },
             "apiName": "TFT8_Yasuo",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Yasuo.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Yasuo_square.TFT_Set8.dds",
             "name": "Yasuo",
             "stats": {
                 "armor": 40.0,
@@ -3219,7 +3219,7 @@
             },
             "apiName": "TFT8_Poppy",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Poppy.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Poppy_square.TFT_Set8.dds",
             "name": "Poppy",
             "stats": {
                 "armor": 45.0,
@@ -3265,7 +3265,7 @@
             },
             "apiName": "TFT8_Talon",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Talon.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Talon_square.TFT_Set8.dds",
             "name": "Talon",
             "stats": {
                 "armor": 25.0,
@@ -3319,7 +3319,7 @@
             },
             "apiName": "TFT8_Renekton",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Renekton.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Renekton_square.TFT_Set8.dds",
             "name": "Renekton",
             "stats": {
                 "armor": 40.0,
@@ -3373,7 +3373,7 @@
             },
             "apiName": "TFT8_WuKong",
             "cost": 1,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_WuKong.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_WuKong_square.TFT_Set8.dds",
             "name": "Wukong",
             "stats": {
                 "armor": 40.0,
@@ -3435,7 +3435,7 @@
             },
             "apiName": "TFT8_Ezreal",
             "cost": 2,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Ezreal.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Ezreal_square.TFT_Set8.dds",
             "name": "Ezreal",
             "stats": {
                 "armor": 20.0,
@@ -3505,7 +3505,7 @@
             },
             "apiName": "TFT8_Soraka",
             "cost": 4,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Soraka.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Soraka_square.TFT_Set8.dds",
             "name": "Soraka",
             "stats": {
                 "armor": 30.0,
@@ -3559,7 +3559,7 @@
             },
             "apiName": "TFT8_Leblanc",
             "cost": 3,
-            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Leblanc.TFT_Set8.dds",
+            "icon": "ASSETS/UX/TFT/ChampionSplashes/TFT8_Leblanc_square.TFT_Set8.dds",
             "name": "LeBlanc",
             "stats": {
                 "armor": 30.0,

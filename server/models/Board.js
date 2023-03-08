@@ -12,6 +12,11 @@ const cellSc= new Schema({
         ref: 'Champ',
         required: false,
         default: null
+    },
+    held:{
+        type: Schema.Types.ObjectId,
+        required: false,
+        default: null
     }
 })
 
