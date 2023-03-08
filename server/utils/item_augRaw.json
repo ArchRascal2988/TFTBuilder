@@ -2901,28 +2901,6 @@
             "unique": true
         },
         {
-            "apiName": "TFT_Item_FrozenMallet",
-            "desc": "TFT_item_description_FrozenMallet",
-            "effects": {
-                "Health": 400.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_FrozenMallet.dds",
-            "id": -78,
-            "name": "TFT_item_name_FrozenMallet",
-            "unique": true
-        },
-        {
-            "apiName": "TFT_Consumable_ChampionDuplicator_III",
-            "desc": "Use on a champion of Tier 3 or less to create a 1-star copy on your bench.<br><br><tftitemrules>[Consumable - This item disappears when used.]</tftitemrules>",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Consumables/ChampionDuplicator_III.dds",
-            "id": 301,
-            "name": "Lesser Champion Duplicator",
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_TitanicHydra",
             "desc": "Combat start: <TFTKeyword>Taunt</TFTKeyword>.<br>On death, a Voidspawn arises, <TFTKeyword>Taunting</TFTKeyword> nearby enemies. <br><br><tftitemrules><tftbold>Taunt</tftbold>: enemies that are able and in range must attack the taunter</tftitemrules>",
             "effects": {
@@ -2937,31 +2915,6 @@
             "id": 27,
             "name": "Zz'Rot Portal",
             "unique": false
-        },
-        {
-            "apiName": "TFT_Item_HextechChestguard",
-            "desc": "tft_item_description_HextechChestguard",
-            "effects": {},
-            "from": [
-                -1,
-                -1
-            ],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_HextechChestguard.dds",
-            "id": -1,
-            "name": "tft_item_name_HextechChestguard",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_Darkin",
-            "desc": "tft_item_description_Darkin",
-            "effects": {
-                "Mana": 40.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_Darkin.dds",
-            "id": -48,
-            "name": "tft_item_name_Darkin",
-            "unique": true
         },
         {
             "apiName": "TFT_Item_SpearOfShojin",
@@ -2980,18 +2933,6 @@
             "id": 14,
             "name": "Spear of Shojin",
             "unique": false
-        },
-        {
-            "apiName": "TFT_Item_YoumuusGhostblade",
-            "desc": "The holder is also an Assassin.<br><br><tftitemrules>[Unique - only 1 per champion]</tftitemrules>",
-            "effects": {
-                "AD": 30.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/TFT_Item_YoumuusGhostblade.dds",
-            "id": -18,
-            "name": "Youmuu's Ghostblade",
-            "unique": true
         },
         {
             "apiName": "TFT_Item_Spatula",
@@ -3076,16 +3017,6 @@
             "unique": false
         },
         {
-            "apiName": "TFT_Consumable_TrainingDummy",
-            "desc": "Use on a champion to spawn a movable target dummy nearby. <br><br><tftitemrules> [Cannot be used in combat. <br>Consumable - This item disappears when used.]</tftitemrules>",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Consumables/TFT_Item_Consumable_Dummy.dds",
-            "id": 204,
-            "name": "Target Dummy",
-            "unique": false
-        },
-        {
             "apiName": "TFT_Item_BFSword",
             "desc": "%i:scaleAD% +@AD*100@% Attack Damage",
             "effects": {
@@ -3144,29 +3075,6 @@
             "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Standard/Gaints_Belt.dds",
             "id": 7,
             "name": "Giant's Belt",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_Unknown",
-            "desc": "It must do <i>something</i>...",
-            "effects": {},
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Placeholders/TFT_Item_Unknown.dds",
-            "id": 100,
-            "name": "Spatula",
-            "unique": false
-        },
-        {
-            "apiName": "TFT_Item_ThiefsGloves_Empty",
-            "desc": "tft_item_description_FracturedMirrorEmptySlot",
-            "effects": {
-                "CritChance": 20.0,
-                "DodgeChance": 20.0
-            },
-            "from": [],
-            "icon": "ASSETS/Maps/Particles/TFT/Item_Icons/Placeholders/TFT_Item_EmptySlot.dds",
-            "id": 10001,
-            "name": "tft_item_name_FracturedMirrorEmptySlot",
             "unique": false
         },
         {
