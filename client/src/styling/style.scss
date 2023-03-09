@@ -22,10 +22,17 @@
 
 .container-def{
     background-color: rgb(56, 120, 178, 0.1);
-    margin: 5rem
+    margin: 5rem;
+    width: auto;
+    height: min-content;
+    padding: 1rem;
 }
 
-.container-titled{
+.container-scrollable{
     background-color: rgb(56, 120, 178, 0.1);
-    margin: 5rem
+    margin: 5rem;
+    width: auto;
+    height: 30rem;
+    overflow-y: auto;
+    padding: 1rem;
 }
