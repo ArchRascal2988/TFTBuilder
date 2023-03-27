@@ -10,6 +10,8 @@ import { ALL_CHAMPS } from "../../utils/gql/queries";
 import { useQuery } from "@apollo/client";
 import { useEffect } from "react";
 
+import { GameBoard } from "../../utils/state/stateclasses";
+
 //team builder tool
 const Builder= ()=>{
     const {loading, error, data}= useQuery(ALL_CHAMPS);
@@ -22,7 +24,7 @@ const Builder= ()=>{
     return(
         <main style={{display: "flex", justifyContent:"space-between", width:"100%", height: "auto"}}>
             <Container title="" styling={"container-def flex-center"}>
-                <Board></Board>
+                <Board boardData={new GameBoard()}></Board>
             </Container>
             <Container title="Champ List" styling={"container-scrollable flex-even"}>
                 {data.allChamps.map((el:any, index:number)=>{
