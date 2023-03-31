@@ -1,15 +1,16 @@
 import { useContext } from "react";
-import { BoardContext } from '../utils/state/boardContext';
+import { BoardContext } from '../utils/state/boardState/boardContext';
 import { GameBoard, Cell } from "../utils/state/stateclasses";
 
 import Hex from "./Hex";
 
 const Board= (props:any)=>{
+    const board= useContext<GameBoard>(BoardContext);
+
 
     return(
     <section id='hexboard'>
-        <BoardContext.Provider value={props.boardData}>
-            {props.boardData.matrix.map((el:Cell[], index:number)=> {
+            {board.matrix.map((el:Cell[], index:number)=> {
                 return <div key={index} className="row">
                     {el.map((el:Cell, index:number)=> 
                         <Hex key={index} row={el.row} 
@@ -18,8 +19,6 @@ const Board= (props:any)=>{
                     }
                 </div>
             })}
-        </BoardContext.Provider>
-        
     </section>
     );
 }

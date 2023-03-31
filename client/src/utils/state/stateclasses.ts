@@ -125,12 +125,12 @@ export class GameBoard{
     matrix: Cell[][];
     augments: Augment[];
     notes: String;
-    traits: ESMap<Trait, number> | null;
+    traits: ESMap<Trait, number>;
 
     constructor(){
-        this.notes= "";
         this.augments= [];
-        this.traits= null;
+        this.notes= "";
+        this.traits= new Map();
         
         let base= new Array(4).fill(new Array(7).fill({}));
         this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c, null)));
@@ -159,7 +159,7 @@ export class GameBoard{
     reset(){
         this.notes= "";
         this.augments= [];
-        this.traits= null;
+        this.traits= new Map();
         
         let base= new Array(4).fill(new Array(7));
         this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c, null)));

@@ -9,7 +9,7 @@ import Community from './componets/pages/Community';
 import SignIn from './componets/pages/SignIn';
 import Account from './componets/pages/Account';
 
-import { BoardContext } from './utils/state/boardContext';
+import { BoardContext } from './utils/state/boardState/boardContext';
 
 import './styling/style.scss';
 
