@@ -21,16 +21,11 @@ const buff:buffer={
 export const boardReducer: Reducer<GameBoard, any>= (state:GameBoard, action:any)=>{
     switch(action.type){
         case 'occ':
-        //updates values correctly but since the gameBoards mem address stays the same it cannot rerender icri
+        //updates values correctly but since the gameBoards value (observed by reacts algo) stays the same it cannot rerender icri
             if(buff.champ){
-                state.matrix= state.matrix.map((el, i1)=> el.map((el, i2)=>{
-                    if(i1==action.r && i2==action.c){
-                       el.occupy(<Champ>buff.champ, true);
-                       return el;
-                    } else return <Cell>el;
-                }))
+                state.matrix[action.r][action.c].occupy(buff.champ);
             } else{
-                console.log("Trying to occupy with no payload.");
+                state.matrix[action.r][action.c].occupy();
             }
             break;
         case 'eq':

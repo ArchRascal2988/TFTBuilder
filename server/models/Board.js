@@ -13,7 +13,7 @@ const cellSc= new Schema({
         required: false,
         default: null
     },
-    held:{
+    heldI:{
         type: Schema.Types.ObjectId,
         required: false,
         default: null
@@ -32,6 +32,9 @@ const boardSc= new Schema(
         }],
         traits: Map,
         notes:{
+            type: String
+        },
+        title:{
             type: String
         }
     }

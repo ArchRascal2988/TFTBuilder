@@ -10,7 +10,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
     const board= useContext<GameBoard>(BoardContext);
     const [state, dispatch]= useReducer(boardReducer, board);
 
-    console.log(BoardContext, state);
+    console.log(state);
 
 
     const dragHandler= (type:string, target:any):undefined=>{
@@ -25,10 +25,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
 
         switch(type){
             case "drop":{
-                console.log("hello");
                 dispatch({type: 'occ', r: row, c: column});
-                console.log(state);
-                
             } break;
 
             case "dragover":{

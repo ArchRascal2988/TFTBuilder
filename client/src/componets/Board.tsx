@@ -15,7 +15,7 @@ const Board= (props:any)=>{
                     {el.map((el:Cell, index:number)=> 
                         <Hex key={index} row={el.row} 
                         column={el.column} champ={el.champ} 
-                        occupy={el.occupy}></Hex>)
+                        heldI={el.heldI} occupy={el.occupy}></Hex>)
                     }
                 </div>
             })}

@@ -1,10 +1,11 @@
 import { ESMap } from 'typescript';
 
 /*
-Idea is with this approach is that 
+Idea with this approach is that 
 with the defined classes we can directly feed the clas methods
-into resolvers as action arg, eliminating the need to check for
-action.type selection
+into resolvers in action arg
+
+I know this is an anti pattern using redux but this is what made sense to my brain considiering how complex the data is
 
 Types are for typing :3
 */ 
@@ -109,15 +110,17 @@ export class Cell{
     row: number;
     column: number;
     champ: Champ | null;
+    heldI: Item | null;
 
-    constructor(row:number, column:number, champ:Champ | null){
+    constructor(row:number, column:number, champ?:Champ, heldI?:Item){
         this.row= row;
         this.column= column;
         this.champ= champ || null;
+        this.heldI= heldI || null;
     }
 
-    occupy(champ:Champ, sw:boolean){
-        this.champ= sw ? champ : null;
+    occupy(champ?:Champ){
+        this.champ= champ ? champ : null;
     }
 }
 
@@ -125,15 +128,22 @@ export class GameBoard{
     matrix: Cell[][];
     augments: Augment[];
     notes: String;
+    title: String;
     traits: ESMap<Trait, number>;
 
-    constructor(){
-        this.augments= [];
-        this.notes= "";
-        this.traits= new Map();
+    constructor(augments?:Augment[], notes?:String, title?:String, traits?:ESMap<Trait, number>, matrix?:Cell[][]){
+        this.augments= augments || [];
+        this.notes= notes || "";
+        this.traits= traits || new Map();
+        this.title= title || "";
         
-        let base= new Array(4).fill(new Array(7).fill({}));
-        this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c, null)));
+        if(!matrix){
+            let base= new Array(4).fill(new Array(7).fill({}));
+            this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c)));
+        } else{
+            this.matrix= matrix;
+        }
+        
     }
 
     setTrait(t:Trait, amt:number){
@@ -162,7 +172,7 @@ export class GameBoard{
         this.traits= new Map();
         
         let base= new Array(4).fill(new Array(7));
-        this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c, null)));
+        this.matrix= base.map((el:any, r:number) => el.map((el:any, c:number)=> new Cell(r, c)));
     }
 
     updateNotes(msg:string){
