@@ -131,7 +131,7 @@ export class GameBoard{
     title: String;
     traits: ESMap<Trait, number>;
 
-    constructor(augments?:Augment[], notes?:String, title?:String, traits?:ESMap<Trait, number>, matrix?:Cell[][]){
+    constructor(matrix?:Cell[][], augments?:Augment[], notes?:String, title?:String, traits?:ESMap<Trait, number>){
         this.augments= augments || [];
         this.notes= notes || "";
         this.traits= traits || new Map();

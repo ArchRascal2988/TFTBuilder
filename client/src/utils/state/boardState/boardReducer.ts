@@ -1,7 +1,8 @@
 import { Reducer, useRef } from 'react';
 
-import { Cell, Champ, Item, Trait, Augment } from '../stateclasses';
-import { GameBoard } from '../stateclasses';
+import { GameBoard, Cell, Champ, Item, Trait, Augment } from '../stateclasses';
+import { bc } from './boardContext';
+
 
 interface buffer {
     champ: Champ | null;
@@ -18,29 +19,32 @@ const buff:buffer={
 }
 
 
-export const boardReducer: Reducer<GameBoard, any>= (state:GameBoard, action:any)=>{
-    switch(action.type){
-        case 'occ':
-        //updates values correctly but since the gameBoards value (observed by reacts algo) stays the same it cannot rerender icri
-            if(buff.champ){
-                state.matrix[action.r][action.c].occupy(buff.champ);
-            } else{
-                state.matrix[action.r][action.c].occupy();
-            }
-            break;
-        case 'eq':
-            break;
-        case 'aug':
-            break;
-        case 'tr':
-            break;
-        case 'buff':
-            switch(action.bt){
-                case 'champ': buff.champ= action.payload;
-                    break;
-            }
-            break;    
+export const boardReducer: Reducer<bc, any>= ({board, setBoard}, action:any)=>{
+    if(setBoard){
+        switch(action.type){
+            case 'occ':
+            //updates values correctly but since the gameBoards value (observed by reacts algo) stays the same it cannot rerender icri
+                if(buff.champ){
+                    board.matrix[action.r][action.c].occupy(buff.champ);
+                    setBoard(new GameBoard(board.matrix));
+                } else{
+                    board.matrix[action.r][action.c].occupy();
+                }
+                break;
+            case 'eq':
+                break;
+            case 'aug':
+                break;
+            case 'tr':
+                break;
+            case 'buff':
+                switch(action.bt){
+                    case 'champ': buff.champ= action.payload;
+                        break;
+                }
+                break;    
+        }
     }
-
-    return state;
+    
+    return { board, setBoard };
 };

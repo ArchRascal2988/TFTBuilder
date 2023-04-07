@@ -1,4 +1,11 @@
-import { createContext } from "react";
+
+import React from "react";
+import { createContext} from "react";
 import { GameBoard } from '../stateclasses';
 
-export const BoardContext= createContext<GameBoard>(new GameBoard());
+export interface bc{
+    board: GameBoard,
+    setBoard: React.Dispatch<React.SetStateAction<GameBoard>> | null
+}
+
+export const BoardContext= createContext<bc>({board: new GameBoard(), setBoard: null});

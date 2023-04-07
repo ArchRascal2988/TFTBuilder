@@ -1,11 +1,11 @@
 import { useContext } from "react";
-import { BoardContext } from '../utils/state/boardState/boardContext';
-import { GameBoard, Cell } from "../utils/state/stateclasses";
+import { Cell, GameBoard } from "../utils/state/stateclasses";
+import {bc, BoardContext} from "../utils/state/boardState/boardContext";
 
 import Hex from "./Hex";
 
 const Board= (props:any)=>{
-    const board= useContext<GameBoard>(BoardContext);
+     const { board } = useContext(BoardContext);
 
 
     return(

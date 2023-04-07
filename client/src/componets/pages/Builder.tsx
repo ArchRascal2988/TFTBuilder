@@ -3,15 +3,19 @@ import Icon from "../Icon";
 import Container from "../Container"
 
 import '../../styling/board.scss';
+import { useState} from "react";
 
-import { BoardContext } from "../../utils/state/boardState/boardContext";
 import { GameBoard, Champ } from "../../utils/state/stateclasses";
+import {BoardContext} from "../../utils/state/boardState/boardContext";
 
 import { ALL_CHAMPS } from "../../utils/gql/queries";
 import { useQuery } from "@apollo/client";
 
 //team builder tool
 const Builder= ()=>{
+    const [board, setBoard]= useState(new GameBoard());
+
+
     const {loading, error, data}= useQuery(ALL_CHAMPS);
     if(loading){
         return(
@@ -21,7 +25,7 @@ const Builder= ()=>{
     
     return(
         <main style={{display: "flex", justifyContent:"space-between", width:"100%", height: "auto"}}>
-            <BoardContext.Provider value={new GameBoard()}>
+            <BoardContext.Provider value={{board, setBoard}}>
                 <Container title="" styling={"container-def flex-center"}>
                     <Board></Board>
                 </Container>

@@ -3,12 +3,12 @@ import { useContext, useReducer } from 'react';
 import '../styling/board.scss';
 
 import { GameBoard, Cell} from '../utils/state/stateclasses';
-import { BoardContext } from '../utils/state/boardState/boardContext';
+import { BoardContext, bc } from '../utils/state/boardState/boardContext';
 import { boardReducer } from '../utils/state/boardState/boardReducer';
 
 const Hex= ({row, column, champ, occupy}:Cell)=>{
-    const board= useContext<GameBoard>(BoardContext);
-    const [state, dispatch]= useReducer(boardReducer, board);
+    const { board, setBoard } = useContext<bc>(BoardContext);
+    const [state, dispatch]= useReducer(boardReducer, { board, setBoard });
 
     console.log(state);
 
