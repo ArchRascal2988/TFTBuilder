@@ -24,12 +24,14 @@ const Builder= ()=>{
     }
     
     return(
-        <main style={{display: "flex", justifyContent:"space-between", width:"100%", height: "auto"}}>
+        <main style={{display: "flex", justifyContent:"space-between", width:"100%", height: "auto", flexFlow:"row wrap"}}>
             <BoardContext.Provider value={{board, setBoard}}>
-                <Container title="" styling={"container-def flex-center"}>
+                <Container title="Traits" styling={"container-def shift-left max-w"}>
+                </Container>
+                <Container title="" styling={"container-def flex-center  half-w"}>
                     <Board></Board>
                 </Container>
-                <Container title="Champ List" styling={"container-scrollable flex-even"}>
+                <Container title="Champ List" styling={"container-scrollable flex-even half-w"}>
                     {data.allChamps.map((el:any, index:number)=>{
                         return <Icon key={index} value={el._id} champ={new Champ(el.name, el.cost, el.traits, el.ability, el.pngUrl, null)}></Icon>
                     })}

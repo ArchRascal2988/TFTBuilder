@@ -76,14 +76,14 @@ export class Trait{
 export class Champ{
     name: string;
     cost: number;
-    traits: string[];
+    traits: Trait[];
     ability: ability;
     aviURL: string;
     currItems: Item[];
     starLvl: String | null;
     isPrime: boolean;
 
-    constructor(name:string, cost:number, traits:string[], ability:ability, url:string, items:Item[] | null){
+    constructor(name:string, cost:number, traits:Trait[], ability:ability, url:string, items:Item[] | null){
         this.name= name;
         this.cost= cost;
         this.traits= traits;
@@ -121,6 +121,7 @@ export class Cell{
 
     occupy(champ?:Champ){
         this.champ= champ ? champ : null;
+        return champ==null? champ : 'none';
     }
 }
 

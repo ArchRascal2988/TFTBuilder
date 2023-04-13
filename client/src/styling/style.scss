@@ -20,19 +20,25 @@
     align-self: flex-end;
 }
 
+.max-w{
+    width:100%;
+    height: 15rem;
+}
+
+.half-w{
+    width: 45%;
+    height: 35rem;
+    margin: 3rem 1rem;
+}   
+
 .container-def{
     background-color: rgb(56, 120, 178, 0.1);
-    margin: 5rem;
-    width: auto;
-    height: 35rem;
+    
     padding: 1rem;
 }
 
 .container-scrollable{
     background-color: rgb(56, 120, 178, 0.1);
-    margin: 5rem;
-    width: auto;
-    height: 35rem;
     overflow-y: auto;
     padding: 1rem;
 }

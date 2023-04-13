@@ -26,7 +26,12 @@ export const boardReducer: Reducer<bc, any>= ({board, setBoard}, action:any)=>{
             //updates values correctly but since the gameBoards value (observed by reacts algo) stays the same it cannot rerender icri
                 if(buff.champ){
                     board.matrix[action.r][action.c].occupy(buff.champ);
-                    setBoard(new GameBoard(board.matrix));
+                    for(const trait of buff.champ.traits){
+                        if(board.traits.size<1){
+                            board.setTrait(trait, 1);
+                        } else board.setTrait(trait, board.traits.get(trait)!+1)
+                    }
+                    setBoard(new GameBoard(board.matrix, board.augments, board.notes, board.title, board.traits));
                 } else{
                     board.matrix[action.r][action.c].occupy();
                     setBoard(new GameBoard(board.matrix));
@@ -35,8 +40,6 @@ export const boardReducer: Reducer<bc, any>= ({board, setBoard}, action:any)=>{
             case 'eq':
                 break;
             case 'aug':
-                break;
-            case 'tr':
                 break;
             case 'buff':
                 switch(action.bt){

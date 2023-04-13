@@ -10,7 +10,6 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
     const boardContext = useContext<bc>(BoardContext);
     const [state, dispatch]= useReducer(boardReducer, boardContext);
     const [action, setAction]= useState({type: '', r: row, c: column});
-    console.log(state.board.matrix[row][column].champ);
 
     useEffect(()=>{
         dispatch(action);
