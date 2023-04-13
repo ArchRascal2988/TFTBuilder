@@ -29,6 +29,7 @@ export const boardReducer: Reducer<bc, any>= ({board, setBoard}, action:any)=>{
                     setBoard(new GameBoard(board.matrix));
                 } else{
                     board.matrix[action.r][action.c].occupy();
+                    setBoard(new GameBoard(board.matrix));
                 }
                 break;
             case 'eq':

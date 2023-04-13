@@ -1,4 +1,4 @@
-import { useContext, useReducer } from 'react';
+import { useContext, useEffect, useReducer, useState } from 'react';
 
 import '../styling/board.scss';
 
@@ -7,11 +7,14 @@ import { BoardContext, bc } from '../utils/state/boardState/boardContext';
 import { boardReducer } from '../utils/state/boardState/boardReducer';
 
 const Hex= ({row, column, champ, occupy}:Cell)=>{
-    const { board, setBoard } = useContext<bc>(BoardContext);
-    const [state, dispatch]= useReducer(boardReducer, { board, setBoard });
+    const boardContext = useContext<bc>(BoardContext);
+    const [state, dispatch]= useReducer(boardReducer, boardContext);
+    const [action, setAction]= useState({type: '', r: row, c: column});
+    console.log(state.board.matrix[row][column].champ);
 
-    console.log(state);
-
+    useEffect(()=>{
+        dispatch(action);
+    }, [action])
 
     const dragHandler= (type:string, target:any):undefined=>{
         let el:HTMLElement;
@@ -25,7 +28,8 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
 
         switch(type){
             case "drop":{
-                dispatch({type: 'occ', r: row, c: column});
+                setAction({ ...action, type: 'occ',});
+                //dispatch({type: 'occ', r: row, c: column});
             } break;
 
             case "dragover":{
@@ -40,7 +44,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
 
 
 
-    if(!champ){
+    if(!state.board.matrix[row][column].champ){
         return(
             <div draggable onDrop={(e)=>{
                 e.preventDefault();
@@ -51,7 +55,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
             }} className="mask hexdiv-empty mask-hexagon" 
-            data-row={row} data-collumn={column} data-src=""></div>
+            data-src=""></div>
         )
     } else{
         return(
@@ -64,7 +68,7 @@ const Hex= ({row, column, champ, occupy}:Cell)=>{
                 e.stopPropagation();
                 dragHandler(e.type, e.target);
             }} className="mask hexdiv-occ mask-hexagon" 
-            data-row={row} data-collumn={column} data-src={champ.aviURL}></div>
+           style={{"backgroundImage": `url(${state.board.matrix[row][column].champ?.aviURL})`}}></div>
         )
     }    
 }
